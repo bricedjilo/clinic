@@ -3,6 +3,7 @@ import React from "react";
 import icon01 from "./images/icon-01.png";
 import icon02 from "./images/icon-02.png";
 import icon03 from "./images/icon-03.png";
+import whatsapp from "./images/whatsapp.png";
 import video01 from "./images/video/icon-01.png";
 
 import "./banner.css";
@@ -17,15 +18,14 @@ export const Banner = (props) => {
               <div className="banner-content-area">
                 <div className="banner-content">
                   <h1>
-                    Bringing{" "}
-                    <span className="theme-color font-l"> Health </span>
-                    to Life For The Whole
-                    <span className="primary-color font-l"> Family </span>
+                    Votre <span className="theme-color font-l"> Santé</span>,
+                    Notre
+                    <span className="primary-color font-l"> Satisfaction </span>
                   </h1>
                   <div className="banner-btn">
                     <a href="#" className="lab-btn">
                       <span>
-                        Get Appointments
+                        Obtenez un rendez-vous
                         <i className="icofont-rounded-double-right"></i>
                       </span>
                     </a>
@@ -62,31 +62,45 @@ export const Banner = (props) => {
               </div>
               <div className="post-content">
                 <h6>
-                  <i>Give us a Call</i>
+                  <i>Appelez nous</i>
                 </h6>
-                <h5>001-888-123-4567</h5>
+                <h5>(+237) 695 056 524</h5>
               </div>
             </div>
+
+            <div className="post-item">
+              <div className="post-thumb">
+                <img src={whatsapp} alt="banner" />
+              </div>
+              <div className="post-content">
+                <h6>
+                  <i>WhatsApp</i>
+                </h6>
+                <h5>(+237) 671 516 067</h5>
+              </div>
+            </div>
+
             <div className="post-item">
               <div className="post-thumb">
                 <img src={icon02} alt="banner" />
               </div>
               <div className="post-content">
                 <h6>
-                  <i>Send us a Message</i>
+                  <i>Envoyez nous un courriel</i>
                 </h6>
-                <h5>medicap@mail.com</h5>
+                <h5>royalclinic.dla@gmail.com</h5>
               </div>
             </div>
+
             <div className="post-item">
               <div className="post-thumb">
                 <img src={icon03} alt="banner" />
               </div>
               <div className="post-content">
                 <h6>
-                  <i>Visit our Location</i>
+                  <i>Rendez nous visite</i>
                 </h6>
-                <h5>02-07 Suitland Street 120</h5>
+                <h5>Bonaberi, Derrière ancien <br /> cinéma le "FOHATO"</h5>
               </div>
             </div>
           </div>

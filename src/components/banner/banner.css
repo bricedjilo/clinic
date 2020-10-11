@@ -1,6 +1,6 @@
 /* @@@@@@@@@@@@@  Banner Section Start Here  @@@@@@@@@@@@@@ */
 .banner.style-1 {
-  background-image: url(./images/banner-01.jpg);
+  background-image: url(./images/banner-rc.jpg);
 }
 
 .banner.style-1 .banner-bottom .banner-bottom-pattan {
@@ -132,9 +132,12 @@
   color: #82cf09;
 }
 .banner.style-1 .banner-bottom .bottom-wrapper .post-item:nth-child(2) h5 {
-  color: #00baff;
+  color: #6fbd35;
 }
 .banner.style-1 .banner-bottom .bottom-wrapper .post-item:nth-child(3) h5 {
+  color: #00baff;
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item:nth-child(4) h5 {
   color: #9160ff;
 }
 .banner.style-2 {
