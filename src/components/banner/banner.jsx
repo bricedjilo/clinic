@@ -19,7 +19,7 @@ export const Banner = (props) => {
                 <div className="banner-content">
                   <h1>
                     Votre <span className="theme-color font-l"> Santé</span>,
-                    Notre
+                    <br />Notre
                     <span className="primary-color font-l"> Satisfaction </span>
                   </h1>
                   <div className="banner-btn">
