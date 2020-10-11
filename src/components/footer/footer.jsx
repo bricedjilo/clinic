@@ -177,13 +177,7 @@ export const Footer = (props) => {
           <div className="row justify-content-center">
             <div className="col-12">
               <p>
-                &copy; 2020 <a href="index.html">Medicap</a>Designed By{" "}
-                <a
-                  href="https://themeforest.net/user/Labartisan/portfolio"
-                  target="_blank"
-                >
-                  Labartisan
-                </a>
+                &copy; 2020 <a href="index.html">Royal Clinic</a>
               </p>
             </div>
           </div>
