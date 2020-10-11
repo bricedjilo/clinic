@@ -10,11 +10,11 @@ export const Depistage = (props) => {
       <div className="container">
         <div className="section-header">
           <h2>
-            Campagne de Depistage du{" "}
+            Grande Campagne de Depistage du{" "}
             <span className="theme-color">26/10/2020 au 30/10/2020</span>{" "}
           </h2>
           <div className="depistage">
-            <img className='depistage-img' src={depistage} alt={"depistage"} />
+            <img className="depistage-img" src={depistage} alt={"depistage"} />
           </div>
         </div>
       </div>

@@ -12,7 +12,14 @@ export const Header = (props) => {
           <div className="primary-menu">
             <div className="logo py-2">
               <a href="index.html">
-                <img src={logoRc} alt="logo" />
+                <img
+                  src={logoRc}
+                  alt="logo"
+                  style={{ display: "inline-block" }}
+                />
+                <span style={{ display: "inline-block" }} className="org-name">
+                  Royal Clinic
+                </span>
               </a>
             </div>
             <div className="menu-bar d-lg-none">
