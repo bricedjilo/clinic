@@ -1,0 +1,186 @@
+/* @@@@@@@@@@@@@  service-single start here  @@@@@@@@@@@@@@ */
+.service-single .main-service-single,
+.service-single .main-team-single,
+.team-single .main-service-single,
+.team-single .main-team-single {
+  margin-bottom: -1rem;
+}
+.service-single .main-service-single .main-content .post-thumb img,
+.service-single .main-team-single .main-content .post-thumb img,
+.team-single .main-service-single .main-content .post-thumb img,
+.team-single .main-team-single .main-content .post-thumb img {
+  width: 100%;
+}
+.service-single
+  .main-service-single
+  .post-item
+  .post-item-inner
+  .post-content
+  h5,
+.service-single .main-team-single .post-item .post-item-inner .post-content h5,
+.team-single .main-service-single .post-item .post-item-inner .post-content h5,
+.team-single .main-team-single .post-item .post-item-inner .post-content h5 {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.service-single
+  .main-service-single
+  .post-item
+  .post-item-inner
+  .post-content
+  h5:hover,
+.service-single
+  .main-team-single
+  .post-item
+  .post-item-inner
+  .post-content
+  h5:hover,
+.team-single
+  .main-service-single
+  .post-item
+  .post-item-inner
+  .post-content
+  h5:hover,
+.team-single
+  .main-team-single
+  .post-item
+  .post-item-inner
+  .post-content
+  h5:hover {
+  color: #80bf63;
+}
+.service-single .main-service-single .medical-items ul li:last-child,
+.service-single .main-team-single .medical-items ul li:last-child,
+.team-single .main-service-single .medical-items ul li:last-child,
+.team-single .main-team-single .medical-items ul li:last-child {
+  border-bottom: none !important;
+}
+.service-single .main-service-single .doctor-list,
+.service-single .main-team-single .doctor-list,
+.team-single .main-service-single .doctor-list,
+.team-single .main-team-single .doctor-list {
+  flex-wrap: wrap;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-single .main-service-single .doctor-list,
+  .service-single .main-team-single .doctor-list,
+  .team-single .main-service-single .doctor-list,
+  .team-single .main-team-single .doctor-list {
+    justify-content: center;
+    padding: 30px 15px !important;
+  }
+}
+.service-single .main-service-single .doctor-list .doctor-thumb,
+.service-single .main-team-single .doctor-list .doctor-thumb,
+.team-single .main-service-single .doctor-list .doctor-thumb,
+.team-single .main-team-single .doctor-list .doctor-thumb {
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 10px rgba(137, 137, 137, 0.1);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.service-single .main-service-single .doctor-list .doctor-thumb img,
+.service-single .main-team-single .doctor-list .doctor-thumb img,
+.team-single .main-service-single .doctor-list .doctor-thumb img,
+.team-single .main-team-single .doctor-list .doctor-thumb img {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-single .main-service-single .doctor-list .doctor-thumb,
+  .service-single .main-team-single .doctor-list .doctor-thumb,
+  .team-single .main-service-single .doctor-list .doctor-thumb,
+  .team-single .main-team-single .doctor-list .doctor-thumb {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-single .main-service-single .doctor-list .doctor-content,
+  .service-single .main-team-single .doctor-list .doctor-content,
+  .team-single .main-service-single .doctor-list .doctor-content,
+  .team-single .main-team-single .doctor-list .doctor-content {
+    width: 100%;
+    text-align: center;
+    padding-left: 0 !important;
+  }
+}
+.service-single .main-service-single .doctor-list .doctor-content a,
+.service-single .main-team-single .doctor-list .doctor-content a,
+.team-single .main-service-single .doctor-list .doctor-content a,
+.team-single .main-team-single .doctor-list .doctor-content a {
+  display: block;
+}
+.service-single .main-service-single .doctor-list .doctor-content a h6,
+.service-single .main-team-single .doctor-list .doctor-content a h6,
+.team-single .main-service-single .doctor-list .doctor-content a h6,
+.team-single .main-team-single .doctor-list .doctor-content a h6 {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.service-single .main-service-single .doctor-list .doctor-content a:hover h6,
+.service-single .main-team-single .doctor-list .doctor-content a:hover h6,
+.team-single .main-service-single .doctor-list .doctor-content a:hover h6,
+.team-single .main-team-single .doctor-list .doctor-content a:hover h6 {
+  color: #80bf63;
+}
+.service-single .skill-award,
+.team-single .skill-award {
+  margin-bottom: 25px;
+}
+@media (max-width: 1199px) {
+  .service-single .skill-award .skill-area,
+  .team-single .skill-award .skill-area {
+    margin-top: 30px;
+  }
+}
+.service-single .skill-award h5,
+.team-single .skill-award h5 {
+  margin-bottom: 30px;
+}
+@media (min-width: 992px) {
+  .service-single .skill-award .team-item,
+  .team-single .skill-award .team-item {
+    margin-right: 20px;
+  }
+}
+.service-single .skill-award .team-item:last-child,
+.team-single .skill-award .team-item:last-child {
+  margin: 0;
+}
+.service-single .skill-award .team-item .team-thumb,
+.team-single .skill-award .team-item .team-thumb {
+  margin-bottom: 15px;
+}
+.service-single .skill-award .team-item p,
+.team-single .skill-award .team-item p {
+  margin: 0;
+}
+.service-single .skill-award .team-item .circles,
+.team-single .skill-award .team-item .circles {
+  margin-bottom: 15px;
+}
+.service-single .skill-award .team-item .circles strong,
+.team-single .skill-award .team-item .circles strong {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service-single .skill-award .team-item .circles canvas,
+.team-single .skill-award .team-item .circles canvas {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  border-radius: 100%;
+}
+.service-single .certificate-item .certificate-thumb img,
+.team-single .certificate-item .certificate-thumb img {
+  width: 100%;
+}
+.service-single .post-item.style-2 .post-item-inner .post-content,
+.team-single .post-item.style-2 .post-item-inner .post-content {
+  padding: 30px 30px 25px;
+}

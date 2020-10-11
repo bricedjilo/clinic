@@ -1,0 +1,55 @@
+/* @@@@@@@@@@@@@  Contact Section Start Here  @@@@@@@@@@@@@@ */
+.contact-section.style-1 {
+  background: url(./images/bg-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .contact-section.style-1 .section-header {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .contact-section.style-1 .section-wrapper {
+    margin-bottom: -20px;
+  }
+}
+.contact-section.style-1 .section-wrapper form {
+  z-index: 9;
+}
+@media (min-width: 992px) {
+  .contact-section.style-1 .section-wrapper form {
+    margin-bottom: -15px;
+  }
+}
+.contact-section.style-1 .section-wrapper form input {
+  width: 100%;
+  padding: 13px;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 768px) {
+  .contact-section.style-1 .section-wrapper form input {
+    width: 47%;
+  }
+  .contact-section.style-1 .section-wrapper form input:nth-child(odd) {
+    margin-right: 20px;
+  }
+}
+.contact-section.style-1 .section-wrapper form button[type="submit"] {
+  width: 220px;
+  height: 50px;
+  background: #80bf63;
+  border: none;
+  outline: none;
+  padding: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.contact-section.style-1 .section-wrapper form button[type="submit"]:hover {
+  background: #44a6f1;
+}

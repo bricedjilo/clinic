@@ -1,0 +1,277 @@
+/* @@@@@@@@@@@@@  Banner Section Start Here  @@@@@@@@@@@@@@ */
+.banner.style-1 {
+  background-image: url(./images/banner-01.jpg);
+}
+
+.banner.style-1 .banner-bottom .banner-bottom-pattan {
+  background: url(./images/banner-bottom-pattan.png);
+}
+
+.banner.style-1 .banner-bottom {
+  background: #ffffffa8;
+  padding: 20px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.banner.style-1 .banner-bottom .banner-bottom-pattan {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+}
+.banner.style-1 .banner-bottom .bottom-wrapper {
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .banner {
+    margin-top: 58px !important;
+  }
+}
+.banner.style-1 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 11;
+}
+.banner.style-1 .banner-top {
+  padding: 150px 0;
+}
+.banner.style-1 .banner-content-area .banner-content h1 {
+  line-height: 1.2;
+}
+@media (max-width: 991px) {
+  .banner.style-1 .banner-content-area .banner-content h1 {
+    font-size: 42px;
+  }
+}
+.banner.style-1 .banner-content-area .banner-content .banner-btn {
+  margin-top: 40px;
+  position: relative;
+}
+.banner.style-1 .banner-content-area .banner-content .banner-btn .btn {
+  background: #80bf63;
+  color: #fff;
+}
+.banner.style-1 .banner-content-area .banner-content .banner-btn .video-btn {
+  position: absolute;
+  top: 0;
+  right: 42%;
+}
+@media (max-width: 767px) {
+  .banner.style-1 .banner-content-area .banner-content .banner-btn .video-btn {
+    top: 100px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+@media (max-width: 575px) {
+  .banner.style-1 .banner-content-area .banner-content .banner-btn .video-btn {
+    display: none;
+  }
+}
+.banner.style-1
+  .banner-content-area
+  .banner-content
+  .banner-btn
+  .video-btn
+  .video-icon {
+  position: relative;
+  outline: none;
+  display: inline-block;
+}
+.banner.style-1
+  .banner-content-area
+  .banner-content
+  .banner-btn
+  .video-btn
+  .video-icon
+  img {
+  display: block;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .banner.style-1 .banner-bottom .bottom-wrapper {
+    justify-content: space-around;
+  }
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item {
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  padding: 20px 0;
+}
+@media (max-width: 767px) {
+  .banner.style-1 .banner-bottom .bottom-wrapper .post-item {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .banner.style-1 .banner-bottom .bottom-wrapper .post-item {
+    padding: 0;
+  }
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item .post-thumb {
+  padding-right: 15px;
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item .post-content h6,
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item .post-content h5 {
+  margin-bottom: 0;
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item .post-content h6 {
+  font-weight: normal;
+  margin-bottom: 5px;
+  font-family: "Libre Baskerville", serif;
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item .post-content h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item:nth-child(1) h5 {
+  color: #82cf09;
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item:nth-child(2) h5 {
+  color: #00baff;
+}
+.banner.style-1 .banner-bottom .bottom-wrapper .post-item:nth-child(3) h5 {
+  color: #9160ff;
+}
+.banner.style-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 576px) {
+  .banner.style-2 {
+    background-position: center;
+  }
+}
+@media (min-width: 1200px) {
+  .banner.style-2 {
+    padding-bottom: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner.style-2 .banner-content-area::before {
+    position: absolute;
+    content: "";
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-top: 800px solid #fff;
+    left: 50%;
+    top: 0;
+    margin-left: -670px;
+    margin-top: -270px;
+  }
+}
+.banner.style-2 .banner-content-area .banner-content {
+  z-index: 9;
+  margin-top: 20px;
+}
+@media (min-width: 576px) {
+  .banner.style-2 .banner-content-area .banner-content {
+    margin-top: 150px;
+  }
+}
+.banner.style-2 .banner-content-area .banner-content h2 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  .banner.style-2 .banner-content-area .banner-content h2 {
+    font-size: 60px;
+  }
+}
+.banner.style-2 .banner-content-area .banner-content h2 .primary-color {
+  color: #44a6f1;
+  display: block;
+}
+@media (min-width: 1200px) {
+  .banner.style-2 .banner-content-area .banner-content h2 .primary-color {
+    font-size: 72px;
+  }
+}
+.banner.style-2 .banner-content-area .banner-content .banner-btn {
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 80px;
+}
+@media (max-width: 575px) {
+  .banner.style-2 .banner-content-area .banner-content .banner-btn {
+    display: none;
+  }
+}
+.banner.style-2 .banner-content-area .banner-content .banner-btn .video-btn {
+  display: block;
+}
+.banner.style-2
+  .banner-content-area
+  .banner-content
+  .banner-btn
+  .video-btn
+  .video-icon {
+  display: block;
+  outline: none;
+}
+.banner.style-2
+  .banner-content-area
+  .banner-content
+  .banner-btn
+  .video-btn
+  .video-icon
+  img {
+  display: block;
+}
+.banner.style-2
+  .banner-content-area
+  .banner-content
+  .banner-btn
+  .video-content {
+  left: calc(100% + 50px);
+  width: 115px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media (max-width: 767px) {
+  .banner.style-2
+    .banner-content-area
+    .banner-content
+    .banner-btn
+    .video-content {
+    display: none;
+  }
+}
+
+.page-header {
+  padding: 100px 0;
+}
+@media (max-width: 575px) {
+  .page-header {
+    background-size: cover;
+  }
+}
+@media (max-width: 991px) {
+  .page-header {
+    margin-top: 58px;
+  }
+}
+@media (min-width: 992px) {
+  .page-header {
+    padding: 150px 0;
+  }
+}
+@media (max-width: 575px) {
+  .page-header .page-header-area {
+    text-align: center;
+  }
+}
+.page-header .breadcrumb {
+  padding: 0;
+}
+@media (max-width: 575px) {
+  .page-header .breadcrumb {
+    justify-content: center;
+  }
+}
