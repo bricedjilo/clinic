@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "518cacb0559bda7127ce5cc213d49425",
+    "revision": "abb6cf7610efa636fc66c15eb32927a6",
     "url": "/clinic/index.html"
   },
   {
-    "revision": "117ed2b2d0aa7334ebc4",
-    "url": "/clinic/static/css/main.324a2bd5.chunk.css"
+    "revision": "59c0fc8c20c3cfcd7e3d",
+    "url": "/clinic/static/css/main.16928ac2.chunk.css"
   },
   {
-    "revision": "5c21d04481cfada5f3ab",
-    "url": "/clinic/static/js/2.7dbd712a.chunk.js"
+    "revision": "a0e807bc58c48e0dab90",
+    "url": "/clinic/static/js/2.350e0725.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/clinic/static/js/2.7dbd712a.chunk.js.LICENSE.txt"
+    "url": "/clinic/static/js/2.350e0725.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "117ed2b2d0aa7334ebc4",
-    "url": "/clinic/static/js/main.3fcc8ae5.chunk.js"
+    "revision": "59c0fc8c20c3cfcd7e3d",
+    "url": "/clinic/static/js/main.1049748b.chunk.js"
   },
   {
     "revision": "988d3a03875620f8be6c",
@@ -112,7 +112,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clinic/static/media/bg-01.fd568b48.jpg"
   },
   {
-    "revision": "b90fe00656dfb65c573a121279d7957d",
-    "url": "/clinic/static/media/pattan.b90fe006.png"
+    "revision": "57836ca4350bdc7a92bdae9626e5a5c2",
+    "url": "/clinic/static/media/depistage.57836ca4.jpeg"
   }
 ]);
