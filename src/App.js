@@ -4,8 +4,9 @@ import "./App.css";
 
 import { Header } from "./components/header/header";
 import { Banner } from "./components/banner/banner";
-import { About } from "./components/about/about";
+// import { About } from "./components/about/about";
 import { Service } from "./components/service/service";
+import { Depistage } from "./components/depistage/depistage";
 import { Offer } from "./components/offer/offer";
 import { Team } from "./components/team/team";
 import { Contact } from "./components/contact/contact";
@@ -33,7 +34,8 @@ class App extends Component {
 
         <Header />
         <Banner />
-        <About />
+        <Depistage />
+        {/* <About /> */}
         <Service />
         <Offer />
         <Team />

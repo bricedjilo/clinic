@@ -23,6 +23,7 @@ export const Banner = (props) => {
                     <span className="primary-color font-l"> Satisfaction </span>
                   </h1>
                   <div className="banner-btn">
+                    {/* eslint-disable-next-line */}
                     <a href="#" className="lab-btn">
                       <span>
                         Obtenez un rendez-vous

@@ -121,7 +121,7 @@ export const Footer = (props) => {
                         title="google-embed"
                         src="https://maps.google.com/maps?q=new%40codexcoder&t=&z=17&ie=UTF8&iwloc=&output=embed"
                         className="iframe-google"
-                        allowfullscreen
+                        allowFullScreen
                       ></iframe>
                     </div>
                   </div>

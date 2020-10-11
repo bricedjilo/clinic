@@ -205,6 +205,7 @@ export const Service = (props) => {
                                       <img src={icon01jpg} alt="service-icon" />
                                     </div>
                                     <div className="sfl-content">
+                                      {/* eslint-disable-next-line */}
                                       <a href="#">
                                         <h6>Dr. William Smith</h6>
                                       </a>
@@ -298,6 +299,7 @@ export const Service = (props) => {
                                       />
                                     </div>
                                     <div className="sfl-content">
+                                      {/* eslint-disable-next-line */}
                                       <a href="#">
                                         <h6>Dr. William Smith</h6>
                                       </a>
