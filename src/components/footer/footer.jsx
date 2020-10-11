@@ -3,7 +3,7 @@ import React from "react";
 import footer01 from "./images/01.png";
 import footer02 from "./images/02.png";
 import footer03 from "./images/03.png";
-import logo from "./images/logo/02.png";
+import logoRc from "./images/logo/logo-rc.png";
 
 import "./footer.css";
 
@@ -134,7 +134,7 @@ export const Footer = (props) => {
           <div className="container">
             <div className="section-wrapper">
               <div className="left">
-                <img src={logo} alt="footer-logo" />
+                <img src={logoRc} alt="footer-logo" />
               </div>
               <ul className="right lab-ul">
                 <li>

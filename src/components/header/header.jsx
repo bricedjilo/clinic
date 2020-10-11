@@ -1,5 +1,7 @@
 import React from "react";
 
+import logoRc from "./images/logo-rc.png";
+
 import "./header.css";
 
 export const Header = (props) => {
@@ -10,7 +12,7 @@ export const Header = (props) => {
           <div className="primary-menu">
             <div className="logo py-2">
               <a href="index.html">
-                <img src="assets/images/02.png" alt="logo" />
+                <img src={logoRc} alt="logo" />
               </a>
             </div>
             <div className="menu-bar d-lg-none">
