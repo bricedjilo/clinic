@@ -1,0 +1,47 @@
+import React from "react";
+
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
+
+import logoRc from "./images/logo-rc.png";
+
+import "./menu-bar.css";
+
+export const MenuBar = (props) => {
+  return (
+    <Navbar
+      bg="light"
+      expand="lg"
+      fixed="top"
+      className="shadow-sm p-3 mb-5 bg-grey"
+    >
+      <Navbar.Brand href="#home">
+        <a href="index.html">
+          <img src={logoRc} alt="logo" style={{ display: "inline-block" }} />
+          <span style={{ display: "inline-block" }} className="org-name">
+            Royal Clinic
+          </span>
+        </a>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#link">Link</Nav.Link>
+          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Another action
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3.4">
+              Separated link
+            </NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  );
+};

@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 
+// import Button from "react-bootstrap/Button";
+
 import "./App.css";
 
-import { Header } from "./components/header/header";
+import { MenuBar } from "./components/menu-bar/menu-bar";
 import { Banner } from "./components/banner/banner";
 // import { About } from "./components/about/about";
-import { Service } from "./components/service/service";
 import { Depistage } from "./components/depistage/depistage";
+import { Service } from "./components/service/service";
 import { Offer } from "./components/offer/offer";
 import { Team } from "./components/team/team";
 import { Contact } from "./components/contact/contact";
@@ -31,8 +33,7 @@ class App extends Component {
             </form>
           </div>
         </div>
-
-        <Header />
+        <MenuBar />
         <Banner />
         <Depistage />
         {/* <About /> */}
