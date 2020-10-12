@@ -9,16 +9,20 @@ import logoRc from "./images/logo-rc.png";
 import "./menu-bar.css";
 
 export const MenuBar = (props) => {
+  const menuStyle = {
+    display: "inline-block",
+    margin: 0,
+  };
   return (
     <Navbar
       bg="light"
       expand="lg"
       fixed="top"
-      className="shadow-sm p-3 mb-5 bg-grey"
+      className="shadow-sm px-5 mb-5 bg-grey"
     >
       <Navbar.Brand href="#home">
         <a href="index.html">
-          <img src={logoRc} alt="logo" style={{ display: "inline-block" }} />
+          <img src={logoRc} alt="logo" style={menuStyle} />
           <span style={{ display: "inline-block" }} className="org-name">
             Royal Clinic
           </span>

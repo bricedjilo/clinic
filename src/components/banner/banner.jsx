@@ -19,7 +19,8 @@ export const Banner = (props) => {
                 <div className="banner-content">
                   <h1>
                     Votre <span className="theme-color font-l"> Santé</span>,
-                    <br />Notre
+                    <br />
+                    Notre
                     <span className="primary-color font-l"> Satisfaction </span>
                   </h1>
                   <div className="banner-btn">
@@ -101,7 +102,9 @@ export const Banner = (props) => {
                 <h6>
                   <i>Rendez nous visite</i>
                 </h6>
-                <h5>Bonaberi, Derrière ancien <br /> cinéma le "FOHATO"</h5>
+                <h5>
+                  Bonaberi, Derrière ancien <br /> cinéma le "FOHATO"
+                </h5>
               </div>
             </div>
           </div>
