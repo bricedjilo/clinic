@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f69c83007ad6ad6beb97e9f42b80994",
+    "revision": "fb4c1ff2315bbb42e6f6a5f9e5d713f4",
     "url": "/clinic/index.html"
   },
   {
-    "revision": "043d57718881cf8fcef8",
-    "url": "/clinic/static/css/main.a9f50d50.chunk.css"
+    "revision": "a27c273682bed6a7d0fb",
+    "url": "/clinic/static/css/main.2df6002d.chunk.css"
   },
   {
-    "revision": "a0e807bc58c48e0dab90",
-    "url": "/clinic/static/js/2.350e0725.chunk.js"
+    "revision": "a12c7605b9cfede03856",
+    "url": "/clinic/static/js/2.8aafcd53.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/clinic/static/js/2.350e0725.chunk.js.LICENSE.txt"
+    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
+    "url": "/clinic/static/js/2.8aafcd53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "043d57718881cf8fcef8",
-    "url": "/clinic/static/js/main.b9bc8ed7.chunk.js"
+    "revision": "a27c273682bed6a7d0fb",
+    "url": "/clinic/static/js/main.fbe1d1fc.chunk.js"
   },
   {
     "revision": "988d3a03875620f8be6c",
