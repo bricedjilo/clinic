@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/clinic/static/css/main.2df6002d.chunk.css",
-    "main.js": "/clinic/static/js/main.f8dcb8da.chunk.js",
-    "main.js.map": "/clinic/static/js/main.f8dcb8da.chunk.js.map",
+    "main.css": "/clinic/static/css/main.a3f636d3.chunk.css",
+    "main.js": "/clinic/static/js/main.5bf3f631.chunk.js",
+    "main.js.map": "/clinic/static/js/main.5bf3f631.chunk.js.map",
     "runtime-main.js": "/clinic/static/js/runtime-main.cc94648b.js",
     "runtime-main.js.map": "/clinic/static/js/runtime-main.cc94648b.js.map",
-    "static/js/2.8aafcd53.chunk.js": "/clinic/static/js/2.8aafcd53.chunk.js",
-    "static/js/2.8aafcd53.chunk.js.map": "/clinic/static/js/2.8aafcd53.chunk.js.map",
+    "static/js/2.4af2d8a2.chunk.js": "/clinic/static/js/2.4af2d8a2.chunk.js",
+    "static/js/2.4af2d8a2.chunk.js.map": "/clinic/static/js/2.4af2d8a2.chunk.js.map",
     "index.html": "/clinic/index.html",
-    "precache-manifest.65aeb1b1fb8e794b7467c1312a331e39.js": "/clinic/precache-manifest.65aeb1b1fb8e794b7467c1312a331e39.js",
+    "precache-manifest.6f3b84f302991a3d2c811f533d93ebe5.js": "/clinic/precache-manifest.6f3b84f302991a3d2c811f533d93ebe5.js",
     "service-worker.js": "/clinic/service-worker.js",
-    "static/css/main.2df6002d.chunk.css.map": "/clinic/static/css/main.2df6002d.chunk.css.map",
-    "static/js/2.8aafcd53.chunk.js.LICENSE.txt": "/clinic/static/js/2.8aafcd53.chunk.js.LICENSE.txt",
+    "static/css/main.a3f636d3.chunk.css.map": "/clinic/static/css/main.a3f636d3.chunk.css.map",
+    "static/js/2.4af2d8a2.chunk.js.LICENSE.txt": "/clinic/static/js/2.4af2d8a2.chunk.js.LICENSE.txt",
     "static/media/01.jpg": "/clinic/static/media/01.a6869102.jpg",
     "static/media/team.css": "/clinic/static/media/01.6f762395.png",
     "static/media/footer.css": "/clinic/static/media/01.7ebd2b34.jpg",
@@ -24,14 +24,14 @@
     "static/media/04d.jpg": "/clinic/static/media/04d.e9d9226d.jpg",
     "static/media/05.jpg": "/clinic/static/media/05.1f4ca9b1.jpg",
     "static/media/05d.jpg": "/clinic/static/media/05d.6d8b8e66.jpg",
-    "static/media/banner.css": "/clinic/static/media/banner-rc.c7f89b6b.jpg",
+    "static/media/banner-rc.jpg": "/clinic/static/media/banner-rc.c7f89b6b.jpg",
     "static/media/contact.css": "/clinic/static/media/bg-01.fd568b48.jpg",
     "static/media/depistage.jpeg": "/clinic/static/media/depistage.57836ca4.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc94648b.js",
-    "static/js/2.8aafcd53.chunk.js",
-    "static/css/main.2df6002d.chunk.css",
-    "static/js/main.f8dcb8da.chunk.js"
+    "static/js/2.4af2d8a2.chunk.js",
+    "static/css/main.a3f636d3.chunk.css",
+    "static/js/main.5bf3f631.chunk.js"
   ]
 }
