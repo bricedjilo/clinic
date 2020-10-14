@@ -1,6 +1,6 @@
 import React from "react";
 
-import depistage from "./images/depistage.jpeg";
+import depistage from "./images/depistage-2.jpeg";
 import "./depistage.css";
 
 export const Depistage = (props) => {
@@ -13,8 +13,12 @@ export const Depistage = (props) => {
             Grande Campagne de Depistage du{" "}
             <span className="theme-color">26/10/2020 au 30/10/2020</span>{" "}
           </h2>
-          <div className="depistage">
-            <img className="depistage-img" src={depistage} alt={"depistage"} />
+          <div className="depistage w-100">
+            <img
+              className="depistage-img w-100"
+              src={depistage}
+              alt={"depistage"}
+            />
           </div>
         </div>
       </div>
