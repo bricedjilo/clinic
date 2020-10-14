@@ -5,7 +5,7 @@ import "./depistage.css";
 
 export const Depistage = (props) => {
   return (
-    <section className="about style-1 padding-tb bg-ash">
+    <section className="about style-1 padding-tb bg-ash section-depistage">
       <div className="pattan-shape"></div>
       <div className="container">
         <div className="section-header">

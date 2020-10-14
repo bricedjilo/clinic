@@ -476,7 +476,8 @@ select {
 }
 
 .theme-color {
-  color: #80bf63;
+  /* color: #80bf63; */
+  color: #00aa01;
 }
 
 .primary-color,
