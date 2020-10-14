@@ -1,0 +1,83 @@
+.banner-bottom .banner-bottom-pattan {
+  background: url(./images/banner-bottom-pattan.png);
+}
+
+.b-bottom {
+  margin-top: 0px !important;
+}
+
+.banner-bottom {
+  background: #ffffffa8;
+  padding: 20px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.banner-bottom .banner-bottom-pattan {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+}
+.banner-bottom .bottom-wrapper {
+  justify-content: space-between;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .banner-bottom .bottom-wrapper {
+    justify-content: space-around;
+  }
+}
+.banner-bottom .bottom-wrapper .post-item {
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  padding: 20px 0;
+}
+@media (max-width: 767px) {
+  .banner-bottom .bottom-wrapper .post-item {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .banner-bottom .bottom-wrapper .post-item {
+    padding: 0;
+  }
+}
+.banner-bottom .bottom-wrapper .post-item .post-thumb {
+  padding-right: 15px;
+}
+.banner-bottom .bottom-wrapper .post-item .post-content h6,
+.banner-bottom .bottom-wrapper .post-item .post-content h5 {
+  margin-bottom: 0;
+}
+.banner-bottom .bottom-wrapper .post-item .post-content h6 {
+  font-weight: normal;
+  margin-bottom: 5px;
+  font-family: "Libre Baskerville", serif;
+}
+.banner-bottom .bottom-wrapper .post-item .post-content h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.banner-bottom .bottom-wrapper .post-item:nth-child(1) h5 {
+  color: #82cf09;
+}
+.banner-bottom .bottom-wrapper .post-item:nth-child(2) h5 {
+  color: #6fbd35;
+}
+.banner-bottom .bottom-wrapper .post-item:nth-child(3) h5 {
+  color: #00baff;
+}
+.banner-bottom .bottom-wrapper .post-item:nth-child(4) h5 {
+  color: #9160ff;
+}
+@media (min-width: 530px) {
+  .banner-bottom .bottom-wrapper .post-item {
+    width: 50% !important;
+  }
+}
+@media (min-width: 992px) {
+  .banner-bottom .bottom-wrapper .post-item {
+    padding-bottom: 20px !important;
+  }
+}

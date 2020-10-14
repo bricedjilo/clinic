@@ -1,17 +1,13 @@
 /* @@@@@@@@@@@@@  Banner Section Start Here  @@@@@@@@@@@@@@ */
-.banner.style-1 {
-  /* background-image: url(./images/banner-rc.jpg); */
-  width: 100%;
+.carousel.slide {
+  background: url(./images/banner-bottom-pattan.png);
+  z-index: 100;
 }
 .btn.btn-success {
   background-color: #00aa01;
 }
 .carousel.slide {
   margin-top: 100px;
-}
-
-.banner.style-1 .banner-bottom .banner-bottom-pattan {
-  background: url(./images/banner-bottom-pattan.png);
 }
 
 .banner.style-1 .banner-bottom {

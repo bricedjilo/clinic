@@ -1,9 +1,19 @@
 .depistage .depistage-img {
-  width: 80%;
   margin-top: 2em;
 }
-@media (max-width: 279px) {
+
+@media (max-width: 270px) {
   .section-depistage {
-    margin-top: 30px;
+    margin-top: 70px;
+  }
+}
+@media (min-width: 271px) {
+  .section-depistage {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .section-depistage {
+    margin-top: 0px;
   }
 }

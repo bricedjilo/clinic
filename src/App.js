@@ -2,10 +2,11 @@ import React, { Component } from "react";
 
 // import Button from "react-bootstrap/Button";
 
-import "./App.css";
+
 
 import { MenuBar } from "./components/menu-bar/menu-bar";
 import { Banner } from "./components/banner/banner";
+import { BannerBottom } from "./components/banner-bottom/banner-bottom";
 // import { About } from "./components/about/about";
 import { Depistage } from "./components/depistage/depistage";
 import { Service } from "./components/service/service";
@@ -15,6 +16,8 @@ import { Contact } from "./components/contact/contact";
 import { Blog } from "./components/blog/blog";
 import { Testimonial } from "./components/testimonial/testimonial";
 import { Footer } from "./components/footer/footer";
+
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -35,10 +38,12 @@ class App extends Component {
         </div>
         <MenuBar />
         <Banner />
+        <BannerBottom />
         <Depistage />
         {/* <About /> */}
-        <Service />
         <Offer />
+        <Service />
+
         <Team />
         <Contact />
         <Blog />

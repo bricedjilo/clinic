@@ -10,7 +10,7 @@ export const Depistage = (props) => {
       <div className="container">
         <div className="section-header">
           <h2>
-            Grande Campagne de Depistage du{" "}
+            Grande Campagne de Dépistage du{" "}
             <span className="theme-color">26/10/2020 au 30/10/2020</span>{" "}
           </h2>
           <div className="depistage w-100">
