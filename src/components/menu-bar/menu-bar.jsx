@@ -27,9 +27,12 @@ export const MenuBar = (props) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          <Nav.Link href="#">Accueil</Nav.Link>
+          <Nav.Link href="#link">Campagne</Nav.Link>
+          <Nav.Link href="#link">Nos Services</Nav.Link>
+          <Nav.Link href="#link">Localisation</Nav.Link>
+          <Nav.Link href="#link">Nous Contacter</Nav.Link>
+          {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
@@ -39,7 +42,7 @@ export const MenuBar = (props) => {
             <NavDropdown.Item href="#action/3.4">
               Separated link
             </NavDropdown.Item>
-          </NavDropdown>
+          </NavDropdown> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -9,6 +9,10 @@
   display: "inline-block";
   margin: 0;
 }
+.nav-link {
+  color: #00aa01 !important;
+  font-weight: 500;
+}
 @media (max-width: 991px) {
   .org-name {
     font-size: 1.2em;
