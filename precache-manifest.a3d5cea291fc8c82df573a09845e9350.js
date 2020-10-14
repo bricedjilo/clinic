@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d84dae16b27c71db37e1d009eec0dd61",
+    "revision": "87ec368726150eeaacf57238cbaf636c",
     "url": "/clinic/index.html"
   },
   {
-    "revision": "37a19de2539c9345a42a",
-    "url": "/clinic/static/css/main.a3f636d3.chunk.css"
+    "revision": "971a011e6d479ef0fa17",
+    "url": "/clinic/static/css/main.bf29fbde.chunk.css"
   },
   {
     "revision": "3410a798faa3a84cf564",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clinic/static/js/2.4af2d8a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37a19de2539c9345a42a",
-    "url": "/clinic/static/js/main.5bf3f631.chunk.js"
+    "revision": "971a011e6d479ef0fa17",
+    "url": "/clinic/static/js/main.8d5bf77d.chunk.js"
   },
   {
     "revision": "988d3a03875620f8be6c",
@@ -112,7 +112,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clinic/static/media/bg-01.fd568b48.jpg"
   },
   {
-    "revision": "57836ca4350bdc7a92bdae9626e5a5c2",
-    "url": "/clinic/static/media/depistage.57836ca4.jpeg"
+    "revision": "d843d0bdcd158e5bab300ce5422817c7",
+    "url": "/clinic/static/media/depistage-2.d843d0bd.jpeg"
   }
 ]);
