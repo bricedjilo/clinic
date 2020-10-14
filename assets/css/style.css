@@ -476,7 +476,6 @@ select {
 }
 
 .theme-color {
-  /* color: #80bf63; */
   color: #00aa01;
 }
 
@@ -1008,8 +1007,6 @@ select {
   -webkit-animation-delay: 5.25s;
   animation-delay: 5.25s;
 }
-
-
 
 /* @@@@@@@@@@@@@  lab Item Start Here  @@@@@@@@@@@@@@ */
 .about-item.style-1 {
@@ -2930,7 +2927,6 @@ button,
     opacity: 0.1;
   }
 }
-
 
 /* @@@@@@@@@@@@@  single-sidebar start here  @@@@@@@@@@@@@@ */
 .single-sidebar .department-widget {
@@ -6981,7 +6977,5 @@ button,
 .fore-zero .section-wrapper .zero-item .zero-content .lab-btn {
   padding: 14px 32px;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */
