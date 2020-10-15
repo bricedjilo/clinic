@@ -46,8 +46,8 @@ export const Footer = (props) => {
                     <i>Visitez nos locaux</i>
                   </p>
                   <h6>
-                    Bonaberi, Derrière ancien cinéma le "FOHATO" après le Centre
-                    des Impôts
+                    Ancienne Route Bonaberi (Quartier des princes), Derrière
+                    ancien cinéma le "FOHATO" après le Centre des Impôts
                   </h6>
                 </div>
               </div>
@@ -161,6 +161,15 @@ export const Footer = (props) => {
       <div className="copy-right-part style-2 bg-white">
         <div className="container">
           <div className="row justify-content-center">
+            <div className="row justify-content-center">
+              <div className="col-12">
+                <p>
+                  Ancienne route Bonaberi (Quartier des princes), derrière
+                  l'ancien cinema le "Fohato" après le Centre des Impots
+                </p>
+                <p>BP 6819 Douala, Cameroun</p>
+              </div>
+            </div>
             <div className="col-12">
               <p>
                 &copy; 2020 <a href="index.html">Royal Clinic</a>

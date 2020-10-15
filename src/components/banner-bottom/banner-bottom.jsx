@@ -70,7 +70,7 @@ export const BannerBottom = () => {
                   <i>Rendez nous visite</i>
                 </h6>
                 <h5>
-                  Bonaberi, Derrière ancien <br /> cinéma le "FOHATO"
+                  Bonaberi, Derrière l'ancien <br /> cinéma le "FOHATO"
                 </h5>
               </div>
             </div>
