@@ -132,7 +132,7 @@ export const Footer = (props) => {
           <div className="container">
             <div className="section-wrapper">
               <div className="left">
-                <img src={logoRc} alt="footer-logo" />
+                <img src={logoRc} alt="footer-logo" className="img-fluid" />
               </div>
               <ul className="right lab-ul">
                 <li>

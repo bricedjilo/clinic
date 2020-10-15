@@ -16,7 +16,11 @@ export const Banner = (props) => {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} className="banner">
       <Carousel.Item>
-        <img className="d-block w-100" src={banner} alt="First slide" />
+        <img
+          className="d-block img-fluid w-100"
+          src={banner}
+          alt="First slide"
+        />
         <div className="banner-content w-100 slogan">
           <h1>
             Votre <span className="theme-color font-l"> Santé</span>
@@ -44,7 +48,7 @@ export const Banner = (props) => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={banner} alt="First slide" />
+        <img className="d-block img-fluid w-100" src={banner} alt="2nd slide" />
         <div className="banner-content slogan w-100">
           <h1>
             Votre <span className="theme-color font-l"> Santé</span>

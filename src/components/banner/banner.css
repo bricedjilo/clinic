@@ -1,8 +1,5 @@
 /* @@@@@@@@@@@@@  Banner Section Start Here  @@@@@@@@@@@@@@ */
-.carousel.slide {
-  background: url(./images/banner-bottom-pattan.png);
-  z-index: 100;
-}
+
 .btn.btn-success {
   background-color: #00aa01;
 }

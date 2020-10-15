@@ -2,8 +2,8 @@ import React from "react";
 
 import testimonial01jpg from "./images/01.jpg";
 import testimonial01png from "./images/01.png";
-import testimonialShape01 from "./images/shape/01.png";
-import testimonialShape02 from "./images/shape/02.png";
+// import testimonialShape01 from "./images/shape/01.png";
+// import testimonialShape02 from "./images/shape/02.png";
 
 import "./testimonial.css";
 
