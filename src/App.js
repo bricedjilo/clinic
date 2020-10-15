@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 // import Button from "react-bootstrap/Button";
 
-
-
 import { MenuBar } from "./components/menu-bar/menu-bar";
 import { Banner } from "./components/banner/banner";
 import { BannerBottom } from "./components/banner-bottom/banner-bottom";
@@ -42,11 +40,11 @@ class App extends Component {
         <Depistage />
         {/* <About /> */}
         <Offer />
-        <Service />
+        {/* <Service /> */}
 
-        <Team />
+        {/* <Team /> */}
         <Contact />
-        <Blog />
+        {/* <Blog /> */}
         <Testimonial />
         <Footer />
       </div>

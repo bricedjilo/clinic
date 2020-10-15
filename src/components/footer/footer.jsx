@@ -21,9 +21,9 @@ export const Footer = (props) => {
                 </div>
                 <div className="ft-content">
                   <p>
-                    <i>Give us a Call</i>
+                    <i>Appelez nous</i>
                   </p>
-                  <h6>+882-888-123-4567</h6>
+                  <h6>(+237) 695 056 524</h6>
                 </div>
               </div>
               <div className="ft-item">
@@ -32,9 +32,9 @@ export const Footer = (props) => {
                 </div>
                 <div className="ft-content">
                   <p>
-                    <i>Send us a Message</i>
+                    <i>Envoyez nous un courriel</i>
                   </p>
-                  <h6>medicap@gmail.com</h6>
+                  <h6>royalclinic.dla@gmail.com</h6>
                 </div>
               </div>
               <div className="ft-item">
@@ -43,9 +43,12 @@ export const Footer = (props) => {
                 </div>
                 <div className="ft-content">
                   <p>
-                    <i>Visit our Location</i>
+                    <i>Visitez nos locaux</i>
                   </p>
-                  <h6>07 Suitland Street 120 USA</h6>
+                  <h6>
+                    Bonaberi, Derrière ancien cinéma le "FOHATO" après le Centre
+                    des Impôts
+                  </h6>
                 </div>
               </div>
             </div>
@@ -59,7 +62,7 @@ export const Footer = (props) => {
                   <div className="ft-about-part">
                     <div className="bg-asb-thumb"></div>
                     <div className="ft-title">
-                      <h4>About Our Medicap</h4>
+                      <h4>A propos de Royal Clinic</h4>
                     </div>
                     <div className="ft-body">
                       <p>
@@ -67,48 +70,43 @@ export const Footer = (props) => {
                         economically sound communities through dynamic
                         Phosfluoresc internal sources
                       </p>
-                      <a href="#" className="lab-btn">
-                        <span>
-                          View Website <i className="icofont-double-right"></i>
-                        </span>
-                      </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-xl-4 col-lg-6 col-12">
                   <div className="ft-opening-part">
                     <div className="ft-title">
-                      <h4>Our Opening Hours</h4>
+                      <h4>Nos heures d'ouvertures</h4>
                     </div>
                     <div className="ft-body">
                       <ul className="lab-ul">
                         <li>
-                          <span>Satarday</span>
-                          <span>09:00 am - 10:00 pm</span>
+                          <span>Lundi</span>
+                          <span>07:00 - 22:00</span>
                         </li>
                         <li>
-                          <span>Sunday</span>
-                          <span>09:00 am - 10:00 pm</span>
+                          <span>Mardi</span>
+                          <span>07:00 - 22:00</span>
                         </li>
                         <li>
-                          <span>Monday</span>
-                          <span>09:00 am - 10:00 pm</span>
+                          <span>Mercredi</span>
+                          <span>07:00 - 22:00</span>
                         </li>
                         <li>
-                          <span>Tuesday</span>
-                          <span>09:00 am - 10:00 pm</span>
+                          <span>Jeudi</span>
+                          <span>07:00 - 22:00</span>
                         </li>
                         <li>
-                          <span>Widnessday</span>
-                          <span>09:00 am - 10:00 pm</span>
+                          <span>Vendredi</span>
+                          <span>07:00 - 22:00</span>
                         </li>
                         <li>
-                          <span>Thirsday</span>
-                          <span>09:00 am - 10:00 pm</span>
+                          <span>Samedi</span>
+                          <span>07:00 - 22:00</span>
                         </li>
                         <li>
-                          <span>Friday</span>
-                          <span>09:00 am - 10:00 pm</span>
+                          <span>Dimanche</span>
+                          <span>07:00 - 22:00</span>
                         </li>
                       </ul>
                     </div>
@@ -119,7 +117,7 @@ export const Footer = (props) => {
                     <div className="ft-map">
                       <iframe
                         title="google-embed"
-                        src="https://maps.google.com/maps?q=new%40codexcoder&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                        src="https://maps.google.com/maps?q=bonaberi%20douala&t=&z=13&ie=UTF8&iwloc=&output=embed"
                         className="iframe-google"
                         allowFullScreen
                       ></iframe>
@@ -138,34 +136,22 @@ export const Footer = (props) => {
               </div>
               <ul className="right lab-ul">
                 <li>
+                  <a className="whatsapp" href="#">
+                    &#xe957;
+                  </a>
+                  <span>WhatsApp</span>
+                </li>
+                <li>
                   <a className="facebook" href="#">
                     <i className="icofont-facebook"></i>
                   </a>
                   <span>Facebook</span>
                 </li>
                 <li>
-                  <a className="google" href="#">
-                    <i className="icofont-google-plus"></i>
-                  </a>
-                  <span>Google Plus</span>
-                </li>
-                <li>
                   <a className="twitter" href="#">
                     <i className="icofont-twitter"></i>
                   </a>
                   <span>Twitter</span>
-                </li>
-                <li>
-                  <a className="pinterest" href="#">
-                    <i className="icofont-pinterest"></i>
-                  </a>
-                  <span>Pinterest</span>
-                </li>
-                <li>
-                  <a className="linkedin" href="#">
-                    <i className="icofont-linkedin"></i>
-                  </a>
-                  <span>Linkedin</span>
                 </li>
               </ul>
             </div>

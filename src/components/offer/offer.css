@@ -1,4 +1,7 @@
 /* @@@@@@@@@@@@@  service-single start here  @@@@@@@@@@@@@@ */
+.service-section {
+  padding-bottom: 100px;
+}
 .service-single .main-service-single,
 .service-single .main-team-single,
 .team-single .main-service-single,

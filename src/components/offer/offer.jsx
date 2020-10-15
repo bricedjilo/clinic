@@ -13,12 +13,12 @@ import "./offer.css";
 
 export const Offer = () => {
   return (
-    <section className="service-section style-2 padding-tb bg-ash">
+    <section className="service-section style-2 bg-ash">
       <div className="container">
         <div className="section-header">
           <h2>
-            What Medical Services Do{" "}
-            <span className="theme-color"> We Offer?</span>
+            Quels Sont Les Services Medicaux que{" "}
+            <span className="theme-color"> Nous Offrons ?</span>
           </h2>
         </div>
         <div className="section-wraper">
@@ -30,14 +30,14 @@ export const Offer = () => {
                   <img src={offer02d} alt="service-thumb" />
                 </div>
                 <div className="service-content">
-                  <h4>Family Health Solutions</h4>
+                  <h4 className="theme-color">Consultation généraliste</h4>
                   <p>
                     On the othes hand we denoun with righe ingnaton and dislke
                     men who are beued mnique deplo scalable catalys foring an
                     and demorng by the charms
                   </p>
                   <a href="service-single.html" className="text-btn">
-                    Read More
+                    En savoir plus
                   </a>
                 </div>
               </div>
@@ -49,14 +49,14 @@ export const Offer = () => {
                   <img src={offer03d} alt="service-thumb" />
                 </div>
                 <div className="service-content">
-                  <h4>Eye Care Solutions</h4>
+                  <h4 className="theme-color">Consultation spécialiste</h4>
                   <p>
                     On the othes hand we denoun with righe ingnaton and dislke
                     men who are beued mnique deplo scalable catalys foring an
                     and demorng by the charms
                   </p>
                   <a href="service-single.html" className="text-btn">
-                    Read More
+                    En savoir plus
                   </a>
                 </div>
               </div>
@@ -68,14 +68,14 @@ export const Offer = () => {
                   <img src={offer04d} alt="service-thumb" />
                 </div>
                 <div className="service-content">
-                  <h4>Dental Surgery</h4>
+                  <h4 className="theme-color">Hospitalisation</h4>
                   <p>
                     On the othes hand we denoun with righe ingnaton and dislke
                     men who are beued mnique deplo scalable catalys foring an
                     and demorng by the charms
                   </p>
                   <a href="service-single.html" className="text-btn">
-                    Read More
+                    En savoir plus
                   </a>
                 </div>
               </div>
@@ -87,26 +87,102 @@ export const Offer = () => {
                   <img src={offer05d} alt="service-thumb" />
                 </div>
                 <div className="service-content">
-                  <h4>Children’s Health</h4>
+                  <h4 className="theme-color">Laboratoire</h4>
                   <p>
                     On the othes hand we denoun with righe ingnaton and dislke
                     men who are beued mnique deplo scalable catalys foring an
                     and demorng by the charms
                   </p>
                   <a href="service-single.html" className="text-btn">
-                    Read More
+                    En savoir plus
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="service-item style-1">
+                <div className="service-thumb">
+                  <img src={offer05} alt="service-thumb" />
+                  <img src={offer05d} alt="service-thumb" />
+                </div>
+                <div className="service-content">
+                  <h4 className="theme-color">Petite Chirurgie</h4>
+                  <p>
+                    On the othes hand we denoun with righe ingnaton and dislke
+                    men who are beued mnique deplo scalable catalys foring an
+                    and demorng by the charms
+                  </p>
+                  <a href="service-single.html" className="text-btn">
+                    En savoir plus
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="service-item style-1">
+                <div className="service-thumb">
+                  <img src={offer05} alt="service-thumb" />
+                  <img src={offer05d} alt="service-thumb" />
+                </div>
+                <div className="service-content">
+                  <h4 className="theme-color">Kinésithérapie</h4>
+                  <p>
+                    On the othes hand we denoun with righe ingnaton and dislke
+                    men who are beued mnique deplo scalable catalys foring an
+                    and demorng by the charms
+                  </p>
+                  <a href="service-single.html" className="text-btn">
+                    En savoir plus
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="service-item style-1">
+                <div className="service-thumb">
+                  <img src={offer05} alt="service-thumb" />
+                  <img src={offer05d} alt="service-thumb" />
+                </div>
+                <div className="service-content">
+                  <h4 className="theme-color">CPN & Accouchement</h4>
+                  <p>
+                    On the othes hand we denoun with righe ingnaton and dislke
+                    men who are beued mnique deplo scalable catalys foring an
+                    and demorng by the charms
+                  </p>
+                  <a href="service-single.html" className="text-btn">
+                    En savoir plus
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="service-item style-1">
+                <div className="service-thumb">
+                  <img src={offer05} alt="service-thumb" />
+                  <img src={offer05d} alt="service-thumb" />
+                </div>
+                <div className="service-content">
+                  <h4 className="theme-color">Vaccination</h4>
+                  <p>
+                    On the othes hand we denoun with righe ingnaton and dislke
+                    men who are beued mnique deplo scalable catalys foring an
+                    and demorng by the charms
+                  </p>
+                  <a href="service-single.html" className="text-btn">
+                    En savoir plus
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="text-center">
-            <a href="service.html" className="lab-btn">
+          {/* <div className="text-center">
+            <a href="service.html" className="btn btn-success btn-lg">
               <span>
-                view all service<i className="icofont-double-right"></i>
+                Tous nos services <i className="icofont-double-right"></i>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
