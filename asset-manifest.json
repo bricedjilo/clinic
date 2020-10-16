@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/clinic/static/css/main.9609f244.chunk.css",
-    "main.js": "/clinic/static/js/main.f7148a43.chunk.js",
-    "main.js.map": "/clinic/static/js/main.f7148a43.chunk.js.map",
+    "main.css": "/clinic/static/css/main.2397622a.chunk.css",
+    "main.js": "/clinic/static/js/main.3e449608.chunk.js",
+    "main.js.map": "/clinic/static/js/main.3e449608.chunk.js.map",
     "runtime-main.js": "/clinic/static/js/runtime-main.cc94648b.js",
     "runtime-main.js.map": "/clinic/static/js/runtime-main.cc94648b.js.map",
-    "static/js/2.1239b7c8.chunk.js": "/clinic/static/js/2.1239b7c8.chunk.js",
-    "static/js/2.1239b7c8.chunk.js.map": "/clinic/static/js/2.1239b7c8.chunk.js.map",
+    "static/js/2.e97abadd.chunk.js": "/clinic/static/js/2.e97abadd.chunk.js",
+    "static/js/2.e97abadd.chunk.js.map": "/clinic/static/js/2.e97abadd.chunk.js.map",
     "index.html": "/clinic/index.html",
-    "precache-manifest.2bb6b24b82e9460195eec2fa5c49deed.js": "/clinic/precache-manifest.2bb6b24b82e9460195eec2fa5c49deed.js",
+    "precache-manifest.897d2a90419a67d9a57b3b2209ac5645.js": "/clinic/precache-manifest.897d2a90419a67d9a57b3b2209ac5645.js",
     "service-worker.js": "/clinic/service-worker.js",
-    "static/css/main.9609f244.chunk.css.map": "/clinic/static/css/main.9609f244.chunk.css.map",
-    "static/js/2.1239b7c8.chunk.js.LICENSE.txt": "/clinic/static/js/2.1239b7c8.chunk.js.LICENSE.txt",
+    "static/css/main.2397622a.chunk.css.map": "/clinic/static/css/main.2397622a.chunk.css.map",
+    "static/js/2.e97abadd.chunk.js.LICENSE.txt": "/clinic/static/js/2.e97abadd.chunk.js.LICENSE.txt",
     "static/media/01.jpg": "/clinic/static/media/01.a6869102.jpg",
     "static/media/team.css": "/clinic/static/media/01.6f762395.png",
     "static/media/footer.css": "/clinic/static/media/01.7ebd2b34.jpg",
@@ -24,14 +24,22 @@
     "static/media/04d.jpg": "/clinic/static/media/04d.e9d9226d.jpg",
     "static/media/05.jpg": "/clinic/static/media/05.1f4ca9b1.jpg",
     "static/media/05d.jpg": "/clinic/static/media/05d.6d8b8e66.jpg",
+    "static/media/accouchement.png": "/clinic/static/media/accouchement.e509c4e0.png",
     "static/media/banner-rc.jpg": "/clinic/static/media/banner-rc.c7f89b6b.jpg",
     "static/media/contact.css": "/clinic/static/media/bg-01.fd568b48.jpg",
-    "static/media/depistage-1.jpeg": "/clinic/static/media/depistage-1.0582d95a.jpeg"
+    "static/media/chirurgie.jpeg": "/clinic/static/media/chirurgie.c10fcac1.jpeg",
+    "static/media/depistage-1.jpeg": "/clinic/static/media/depistage-1.0582d95a.jpeg",
+    "static/media/gconsultation.jpg": "/clinic/static/media/gconsultation.7502cd5c.jpg",
+    "static/media/hospitalisation.jpeg": "/clinic/static/media/hospitalisation.8df8a222.jpeg",
+    "static/media/kinesitherapie.jpg": "/clinic/static/media/kinesitherapie.9fb1438d.jpg",
+    "static/media/laboratoire.jpg": "/clinic/static/media/laboratoire.983d21ce.jpg",
+    "static/media/sconsultation.png": "/clinic/static/media/sconsultation.6a043bd4.png",
+    "static/media/vaccination.jpg": "/clinic/static/media/vaccination.8064f4e5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc94648b.js",
-    "static/js/2.1239b7c8.chunk.js",
-    "static/css/main.9609f244.chunk.css",
-    "static/js/main.f7148a43.chunk.js"
+    "static/js/2.e97abadd.chunk.js",
+    "static/css/main.2397622a.chunk.css",
+    "static/js/main.3e449608.chunk.js"
   ]
 }
