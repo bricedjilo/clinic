@@ -2,6 +2,10 @@
 .service-section {
   padding-bottom: 100px;
 }
+.card {
+  border: none;
+  margin-bottom: 32px;
+}
 .service-single .main-service-single,
 .service-single .main-team-single,
 .team-single .main-service-single,

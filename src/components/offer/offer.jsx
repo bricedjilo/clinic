@@ -1,6 +1,16 @@
 import React from "react";
 
-import offer02 from "./images/02.jpg";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+
+import gConsul from "./images/gconsultation.jpg";
+import sConsul from "./images/sconsultation.png";
+import hospitalisation from "./images/hospitalisation.jpeg";
+import laboratoire from "./images/laboratoire.jpg";
+import chirurgie from "./images/chirurgie.jpeg";
+import kinesitherapie from "./images/kinesitherapie.jpg";
+import accouchement from "./images/accouchement.png";
+import vaccination from "./images/vaccination.jpg";
 import offer02d from "./images/02d.jpg";
 import offer03 from "./images/03.jpg";
 import offer03d from "./images/03d.jpg";
@@ -24,156 +34,136 @@ export const Offer = () => {
         <div className="section-wraper">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-12">
-              <div className="service-item style-1">
-                <div className="service-thumb">
-                  <img src={offer02} alt="service-thumb" />
-                  <img src={offer02d} alt="service-thumb" />
-                </div>
-                <div className="service-content">
-                  <h4 className="theme-color">Consultation généraliste</h4>
-                  <p>
-                    On the othes hand we denoun with righe ingnaton and dislke
-                    men who are beued mnique deplo scalable catalys foring an
-                    and demorng by the charms
-                  </p>
+              <Card>
+                <Card.Img variant="top" src={gConsul} />
+                <Card.Body>
+                  <Card.Title className="theme-color">
+                    Consultation généraliste
+                  </Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
                   <a href="service-single.html" className="text-btn">
                     En savoir plus
                   </a>
-                </div>
-              </div>
+                </Card.Body>
+              </Card>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="service-item style-1">
-                <div className="service-thumb">
-                  <img src={offer03} alt="service-thumb" />
-                  <img src={offer03d} alt="service-thumb" />
-                </div>
-                <div className="service-content">
-                  <h4 className="theme-color">Consultation spécialiste</h4>
-                  <p>
-                    On the othes hand we denoun with righe ingnaton and dislke
-                    men who are beued mnique deplo scalable catalys foring an
-                    and demorng by the charms
-                  </p>
+              <Card>
+                <Card.Img variant="top" src={sConsul} />
+                <Card.Body>
+                  <Card.Title className="theme-color">
+                    Consultation spécialiste
+                  </Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
                   <a href="service-single.html" className="text-btn">
                     En savoir plus
                   </a>
-                </div>
-              </div>
+                </Card.Body>
+              </Card>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="service-item style-1">
-                <div className="service-thumb">
-                  <img src={offer04} alt="service-thumb" />
-                  <img src={offer04d} alt="service-thumb" />
-                </div>
-                <div className="service-content">
-                  <h4 className="theme-color">Hospitalisation</h4>
-                  <p>
-                    On the othes hand we denoun with righe ingnaton and dislke
-                    men who are beued mnique deplo scalable catalys foring an
-                    and demorng by the charms
-                  </p>
+              <Card>
+                <Card.Img variant="top" src={hospitalisation} />
+                <Card.Body>
+                  <Card.Title className="theme-color">
+                    Hospitalisation
+                  </Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
                   <a href="service-single.html" className="text-btn">
                     En savoir plus
                   </a>
-                </div>
-              </div>
+                </Card.Body>
+              </Card>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="service-item style-1">
-                <div className="service-thumb">
-                  <img src={offer05} alt="service-thumb" />
-                  <img src={offer05d} alt="service-thumb" />
-                </div>
-                <div className="service-content">
-                  <h4 className="theme-color">Laboratoire</h4>
-                  <p>
-                    On the othes hand we denoun with righe ingnaton and dislke
-                    men who are beued mnique deplo scalable catalys foring an
-                    and demorng by the charms
-                  </p>
+              <Card>
+                <Card.Img variant="top" src={laboratoire} />
+                <Card.Body>
+                  <Card.Title className="theme-color">Laboratoire</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
                   <a href="service-single.html" className="text-btn">
                     En savoir plus
                   </a>
-                </div>
-              </div>
+                </Card.Body>
+              </Card>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="service-item style-1">
-                <div className="service-thumb">
-                  <img src={offer05} alt="service-thumb" />
-                  <img src={offer05d} alt="service-thumb" />
-                </div>
-                <div className="service-content">
-                  <h4 className="theme-color">Petite Chirurgie</h4>
-                  <p>
-                    On the othes hand we denoun with righe ingnaton and dislke
-                    men who are beued mnique deplo scalable catalys foring an
-                    and demorng by the charms
-                  </p>
+              <Card>
+                <Card.Img variant="top" src={chirurgie} />
+                <Card.Body>
+                  <Card.Title className="theme-color">
+                    Petite Chirurgie
+                  </Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
                   <a href="service-single.html" className="text-btn">
                     En savoir plus
                   </a>
-                </div>
-              </div>
+                </Card.Body>
+              </Card>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="service-item style-1">
-                <div className="service-thumb">
-                  <img src={offer05} alt="service-thumb" />
-                  <img src={offer05d} alt="service-thumb" />
-                </div>
-                <div className="service-content">
-                  <h4 className="theme-color">Kinésithérapie</h4>
-                  <p>
-                    On the othes hand we denoun with righe ingnaton and dislke
-                    men who are beued mnique deplo scalable catalys foring an
-                    and demorng by the charms
-                  </p>
+              <Card>
+                <Card.Img variant="top" src={kinesitherapie} />
+                <Card.Body>
+                  <Card.Title className="theme-color">
+                    Kinésithérapie
+                  </Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
                   <a href="service-single.html" className="text-btn">
                     En savoir plus
                   </a>
-                </div>
-              </div>
+                </Card.Body>
+              </Card>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="service-item style-1">
-                <div className="service-thumb">
-                  <img src={offer05} alt="service-thumb" />
-                  <img src={offer05d} alt="service-thumb" />
-                </div>
-                <div className="service-content">
-                  <h4 className="theme-color">CPN & Accouchement</h4>
-                  <p>
-                    On the othes hand we denoun with righe ingnaton and dislke
-                    men who are beued mnique deplo scalable catalys foring an
-                    and demorng by the charms
-                  </p>
+              <Card>
+                <Card.Img variant="top" src={accouchement} />
+                <Card.Body>
+                  <Card.Title className="theme-color">
+                    CPN & Accouchement
+                  </Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
                   <a href="service-single.html" className="text-btn">
                     En savoir plus
                   </a>
-                </div>
-              </div>
+                </Card.Body>
+              </Card>
             </div>
             <div className="col-lg-6 col-12">
-              <div className="service-item style-1">
-                <div className="service-thumb">
-                  <img src={offer05} alt="service-thumb" />
-                  <img src={offer05d} alt="service-thumb" />
-                </div>
-                <div className="service-content">
-                  <h4 className="theme-color">Vaccination</h4>
-                  <p>
-                    On the othes hand we denoun with righe ingnaton and dislke
-                    men who are beued mnique deplo scalable catalys foring an
-                    and demorng by the charms
-                  </p>
+              <Card>
+                <Card.Img variant="top" src={vaccination} />
+                <Card.Body>
+                  <Card.Title className="theme-color">Vaccination</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
                   <a href="service-single.html" className="text-btn">
                     En savoir plus
                   </a>
-                </div>
-              </div>
+                </Card.Body>
+              </Card>
             </div>
           </div>
           {/* <div className="text-center">
