@@ -1,4 +1,6 @@
 import React from "react";
+// import { NavLink } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -26,11 +28,21 @@ export const MenuBar = (props) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#">Accueil</Nav.Link>
-          <Nav.Link href="#link">Campagnes</Nav.Link>
-          <Nav.Link href="#link">Nos Services</Nav.Link>
-          <Nav.Link href="#link">Localisation</Nav.Link>
-          <Nav.Link href="#link">Nous Contacter</Nav.Link>
+          <NavHashLink to="#" className="nav-link">
+            Accueil
+          </NavHashLink>
+          <NavHashLink to="#depistages" className="nav-link">
+            Campagnes
+          </NavHashLink>
+          <NavHashLink to="#services" className="nav-link">
+            Nos Services
+          </NavHashLink>
+          <NavHashLink to="#footer" className="nav-link">
+            Localisation
+          </NavHashLink>
+          <NavHashLink to="#contact" className="nav-link">
+            Nous Contacter
+          </NavHashLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

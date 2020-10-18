@@ -4,7 +4,7 @@ import "./contact.css";
 
 export const Contact = () => {
   return (
-    <section className="contact-section style-1 padding-tb">
+    <section className="contact-section style-1 padding-tb" id="contact">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12">

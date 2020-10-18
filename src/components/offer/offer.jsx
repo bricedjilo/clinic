@@ -1,6 +1,6 @@
 import React from "react";
 
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 import gConsul from "./images/gconsultation.jpg";
@@ -11,19 +11,19 @@ import chirurgie from "./images/chirurgie.jpeg";
 import kinesitherapie from "./images/kinesitherapie.jpg";
 import accouchement from "./images/accouchement.png";
 import vaccination from "./images/vaccination.jpg";
-import offer02d from "./images/02d.jpg";
-import offer03 from "./images/03.jpg";
-import offer03d from "./images/03d.jpg";
-import offer04 from "./images/04.jpg";
-import offer04d from "./images/04d.jpg";
-import offer05 from "./images/05.jpg";
-import offer05d from "./images/05d.jpg";
+// import offer02d from "./images/02d.jpg";
+// import offer03 from "./images/03.jpg";
+// import offer03d from "./images/03d.jpg";
+// import offer04 from "./images/04.jpg";
+// import offer04d from "./images/04d.jpg";
+// import offer05 from "./images/05.jpg";
+// import offer05d from "./images/05d.jpg";
 
 import "./offer.css";
 
 export const Offer = () => {
   return (
-    <section className="service-section style-2 bg-ash">
+    <section className="service-section style-2 bg-ash" id="services">
       <div className="container">
         <div className="section-header">
           <h2>

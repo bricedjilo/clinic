@@ -3,13 +3,14 @@ import React from "react";
 import footer01 from "./images/01.png";
 import footer02 from "./images/02.png";
 import footer03 from "./images/03.png";
+import whatsapp from "./images/whatsapp.png";
 import logoRc from "./images/logo/logo-rc.png";
 
 import "./footer.css";
 
 export const Footer = (props) => {
   return (
-    <footer className="relative">
+    <footer className="relative" id="footer">
       <div className="pattan-shape"></div>
       <div className="footer-top-area">
         <div className="ft-top-abs-area">
@@ -23,7 +24,22 @@ export const Footer = (props) => {
                   <p>
                     <i>Appelez nous</i>
                   </p>
-                  <h6>(+237) 695 056 524</h6>
+                  <h6>
+                    <a href="tel:+237695056524" style={{ color: "#ffffff" }}>
+                      (+237) 695 056 524
+                    </a>
+                  </h6>
+                  <p>
+                    <i>WhatsApp</i>
+                  </p>
+                  <h6>
+                    <a
+                      href="https://wa.me/237671516067?text=Bonjour Royal Clinic !"
+                      style={{ color: "#ffffff" }}
+                    >
+                      (+237) 671 516 067
+                    </a>
+                  </h6>
                 </div>
               </div>
               <div className="ft-item">
@@ -58,7 +74,7 @@ export const Footer = (props) => {
           <div className="container">
             <div className="ft-bottom">
               <div className="row justify-content-center no-gutters">
-                <div className="col-xl-4 col-lg-6 col-12">
+                <div className="col-xl-4 col-lg-6 col-12 mt-4">
                   <div className="ft-about-part">
                     <div className="bg-asb-thumb"></div>
                     <div className="ft-title">
@@ -73,7 +89,7 @@ export const Footer = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-6 col-12">
+                <div className="col-xl-4 col-lg-6 col-12 mt-4">
                   <div className="ft-opening-part">
                     <div className="ft-title">
                       <h4>Nos heures d'ouvertures</h4>
@@ -82,37 +98,37 @@ export const Footer = (props) => {
                       <ul className="lab-ul">
                         <li>
                           <span>Lundi</span>
-                          <span>07:00 - 22:00</span>
+                          <span>24/24 (toujours ouvert)</span>
                         </li>
                         <li>
                           <span>Mardi</span>
-                          <span>07:00 - 22:00</span>
+                          <span>24/24 (toujours ouvert)</span>
                         </li>
                         <li>
                           <span>Mercredi</span>
-                          <span>07:00 - 22:00</span>
+                          <span>24/24 (toujours ouvert)</span>
                         </li>
                         <li>
                           <span>Jeudi</span>
-                          <span>07:00 - 22:00</span>
+                          <span>24/24 (toujours ouvert)</span>
                         </li>
                         <li>
                           <span>Vendredi</span>
-                          <span>07:00 - 22:00</span>
+                          <span>24/24 (toujours ouvert)</span>
                         </li>
                         <li>
                           <span>Samedi</span>
-                          <span>07:00 - 22:00</span>
+                          <span>24/24 (toujours ouvert)</span>
                         </li>
                         <li>
                           <span>Dimanche</span>
-                          <span>07:00 - 22:00</span>
+                          <span>24/24 (toujours ouvert)</span>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-12">
+                <div className="col-xl-4 col-12 mt-4">
                   <div className="ft-map-area">
                     <div className="ft-map">
                       <iframe
@@ -136,8 +152,13 @@ export const Footer = (props) => {
               </div>
               <ul className="right lab-ul">
                 <li>
-                  <a className="whatsapp" href="#">
-                    &#xe957;
+                  <a
+                    className="whatsapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://wa.me/237671516067?text=Bonjour Royal Clinic !"
+                  >
+                    <img src={whatsapp} alt="WhatsApp" className="img-fluid" />
                   </a>
                   <span>WhatsApp</span>
                 </li>

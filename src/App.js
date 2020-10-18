@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Switch, Route } from "react-router-dom";
 
 // import Button from "react-bootstrap/Button";
 
@@ -7,11 +8,11 @@ import { Banner } from "./components/banner/banner";
 import { BannerBottom } from "./components/banner-bottom/banner-bottom";
 // import { About } from "./components/about/about";
 import { Depistage } from "./components/depistage/depistage";
-import { Service } from "./components/service/service";
+// import { Service } from "./components/service/service";
 import { Offer } from "./components/offer/offer";
-import { Team } from "./components/team/team";
+// import { Team } from "./components/team/team";
 import { Contact } from "./components/contact/contact";
-import { Blog } from "./components/blog/blog";
+// import { Blog } from "./components/blog/blog";
 import { Testimonial } from "./components/testimonial/testimonial";
 import { Footer } from "./components/footer/footer";
 
@@ -34,19 +35,17 @@ class App extends Component {
             </form>
           </div>
         </div>
-        <MenuBar />
-        <Banner />
-        <BannerBottom />
-        <Depistage />
-        {/* <About /> */}
-        <Offer />
-        {/* <Service /> */}
-
-        {/* <Team /> */}
-        <Contact />
-        {/* <Blog /> */}
-        <Testimonial />
-        <Footer />
+        {/* <Switch> */}
+        <Route path="/" component={MenuBar} />
+        <Route path="/" component={Banner} />
+        <Route path="/" component={BannerBottom} />
+        <Route path="/" component={Depistage} />
+        <Route path="/" component={Offer} />
+        <Route path="/" component={Contact} />
+        <Route path="/" component={Testimonial} />
+        <Route path="/" component={Footer} />
+        {/* </Switch> */}
+        {/* <Footer /> */}
       </div>
     );
   }
