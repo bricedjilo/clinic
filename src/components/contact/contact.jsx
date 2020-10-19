@@ -20,7 +20,7 @@ export const Contact = () => {
             {/* <div className="section-wrapper"> */}
             <Form>
               <Form.Group controlId="contactForm.ControlInput1">
-                <Form.Label>Email address</Form.Label>
+                <Form.Label>Adresse e-mail</Form.Label>
                 <Form.Control type="text" placeholder="Votre Prenom" />
                 <Form.Control type="text" placeholder="Votre Nom" />
                 <Form.Label>Votre adresse e-mail</Form.Label>
