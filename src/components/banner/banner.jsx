@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+// import React, { useState } from "react";
 
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
@@ -15,7 +16,7 @@ export const Banner = (props) => {
   // };
   return (
     <Carousel className="banner">
-      <Carousel.Item>
+      <Carousel.Item key="01">
         <img
           className="d-block img-fluid w-100"
           src={banner}
@@ -47,8 +48,36 @@ export const Banner = (props) => {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item key="02">
         <img className="d-block img-fluid w-100" src={banner} alt="2nd slide" />
+        <div className="banner-content slogan w-100">
+          <h1>
+            Votre <span className="theme-color font-l"> Santé</span>
+            ,
+            <br />
+            Notre
+            <span className="primary-color font-l"> Satisfaction </span>
+          </h1>
+          <Button className="btn btn-success btn-sm">
+            Obtenez un rendez-vous{" "}
+            <i className="icofont-rounded-double-right"></i>
+          </Button>
+        </div>
+        <Carousel.Caption>
+          <p
+            style={{
+              color: "#00aa01",
+              "font-size": "2em",
+              "font-weight": "bold",
+            }}
+            className="banner-caption"
+          >
+            Soins et services de qualité dans un cadre royal
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item key="03">
+        <img className="d-block img-fluid w-100" src={banner} alt="3rd slide" />
         <div className="banner-content slogan w-100">
           <h1>
             Votre <span className="theme-color font-l"> Santé</span>
