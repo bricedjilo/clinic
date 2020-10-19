@@ -15,8 +15,8 @@ export const Banner = (props) => {
   //   setIndex(selectedIndex);
   // };
   return (
-    <Carousel className="banner">
-      <Carousel.Item key="01">
+    <Carousel className="banner" fade={true}>
+      <Carousel.Item>
         <img
           className="d-block img-fluid w-100"
           src={banner}
