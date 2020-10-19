@@ -8,13 +8,13 @@ import banner from "./images/banner-rc.jpg";
 import "./banner.css";
 
 export const Banner = (props) => {
-  const [index, setIndex] = useState(0);
+  // const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+  // const handleSelect = (selectedIndex, e) => {
+  //   setIndex(selectedIndex);
+  // };
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} className="banner">
+    <Carousel className="banner">
       <Carousel.Item>
         <img
           className="d-block img-fluid w-100"
