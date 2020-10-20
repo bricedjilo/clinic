@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import { Switch, Route } from "react-router-dom";
 import { Route } from "react-router-dom";
 
-// import Button from "react-bootstrap/Button";
+import { Services } from "./data/services";
 
 import { MenuBar } from "./components/menu-bar/menu-bar";
 import { Banner } from "./components/banner/banner";
@@ -37,11 +37,15 @@ class App extends Component {
           </div>
         </div>
         {/* <Switch> */}
-        <Route path="/" component={MenuBar} />
+        <Route path="/">
+          <MenuBar />
+        </Route>
         <Route path="/" component={Banner} />
         <Route path="/" component={BannerBottom} />
         <Route path="/" component={Depistage} />
-        <Route path="/" component={Offer} />
+        <Route path="/">
+          <Offer services={Services} />
+        </Route>
         <Route path="/" component={Contact} />
         <Route path="/" component={Testimonial} />
         <Route path="/" component={Footer} />
