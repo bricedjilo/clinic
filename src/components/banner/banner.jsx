@@ -1,8 +1,6 @@
 import React from "react";
-// import React, { useState } from "react";
 
 import Carousel from "react-bootstrap/Carousel";
-import Button from "react-bootstrap/Button";
 
 import banner from "./images/banner-rc.jpg";
 

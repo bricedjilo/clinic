@@ -37,9 +37,11 @@ export const Blog = () => {
                       <a href="#" className="date">
                         01 May'20
                       </a>
+                      {/* eslint-disable-next-line */}
                       <a href="#" className="name">
                         John Doe
                       </a>
+                      {/* eslint-disable-next-line */}
                       <a href="#" className="comments">
                         1 Comments
                       </a>

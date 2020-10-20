@@ -172,12 +172,14 @@ export const Footer = (props) => {
                   <span>WhatsApp</span>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a className="facebook" href="#">
                     <i className="icofont-facebook"></i>
                   </a>
                   <span>Facebook</span>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a className="twitter" href="#">
                     <i className="icofont-twitter"></i>
                   </a>
