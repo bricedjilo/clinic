@@ -5,7 +5,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 
 export const CardService = (props) => {
-  console.log(props.service.image);
   return (
     <Card key={props.service.id}>
       <Card.Img variant="top" src={require(`${props.service.image}`)} />

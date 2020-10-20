@@ -5,6 +5,7 @@ import footer02 from "./images/02.png";
 import footer03 from "./images/03.png";
 import whatsapp from "./images/whatsapp.png";
 import logoRc from "./images/logo/logo-rc.png";
+import planLocal from "./images/plan_de_localisation_no_white_bg.png";
 
 import "./footer.css";
 
@@ -145,7 +146,15 @@ export const Footer = (props) => {
           </div>
         </div>
         <div className="footer-bottom bg-ash">
-          <div className="container">
+          <div className="container" id="plan-local">
+            <div className="mt-5">
+              <img
+                src={planLocal}
+                alt="Plan de localisation"
+                className="img-fluid mb-5"
+                width="100%"
+              />
+            </div>
             <div className="section-wrapper">
               <div className="left">
                 <img src={logoRc} alt="footer-logo" className="img-fluid" />
@@ -179,6 +188,7 @@ export const Footer = (props) => {
           </div>
         </div>
       </div>
+
       <div className="copy-right-part style-2 bg-white">
         <div className="container">
           <div className="row justify-content-center">

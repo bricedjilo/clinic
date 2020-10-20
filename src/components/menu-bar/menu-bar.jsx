@@ -37,8 +37,11 @@ export const MenuBar = (props) => {
           <NavHashLink to="#services" className="nav-link">
             Nos Services
           </NavHashLink>
+          <NavHashLink to="#plan-local" className="nav-link">
+            Visitez Nous
+          </NavHashLink>
           <NavHashLink to="#footer" className="nav-link">
-            Localisation
+            Heures d'ouverture
           </NavHashLink>
           <NavHashLink to="#contact" className="nav-link">
             Nous Contacter
