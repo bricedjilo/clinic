@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25dae6da95175ae6e2ea47b7f3d5d02e",
+    "revision": "425f36c6a22ff4242278667afdffe4dc",
     "url": "/clinic/index.html"
   },
   {
-    "revision": "9e7e0365f3aa5f36c8ca",
-    "url": "/clinic/static/css/main.f6279d34.chunk.css"
+    "revision": "1653a0e729c9d39548a9",
+    "url": "/clinic/static/css/main.8cfeb100.chunk.css"
   },
   {
-    "revision": "1f7b644762405da86d13",
-    "url": "/clinic/static/js/2.486bce02.chunk.js"
+    "revision": "d6d34b7600c916a6fee3",
+    "url": "/clinic/static/js/2.4961a530.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/clinic/static/js/2.486bce02.chunk.js.LICENSE.txt"
+    "url": "/clinic/static/js/2.4961a530.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e7e0365f3aa5f36c8ca",
-    "url": "/clinic/static/js/main.1de3b178.chunk.js"
+    "revision": "1653a0e729c9d39548a9",
+    "url": "/clinic/static/js/main.3fc73b67.chunk.js"
   },
   {
     "revision": "988d3a03875620f8be6c",
@@ -30,6 +30,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a2eff715ddce85da025815715019859e",
     "url": "/clinic/static/media/01.a2eff715.png"
+  },
+  {
+    "revision": "4d03a7c56a4b132575def070d75cba8d",
+    "url": "/clinic/static/media/02.4d03a7c5.jpg"
+  },
+  {
+    "revision": "7a7039113a2bd834b67ef670f49051a0",
+    "url": "/clinic/static/media/02d.7a703911.jpg"
+  },
+  {
+    "revision": "344ab11f068d93a405194f156e5c4fae",
+    "url": "/clinic/static/media/03.344ab11f.jpg"
+  },
+  {
+    "revision": "ee07996cb831b43fe3e6cbf387c4db11",
+    "url": "/clinic/static/media/03d.ee07996c.jpg"
+  },
+  {
+    "revision": "4300d86fa83603afc9fc2ff5ca94f4eb",
+    "url": "/clinic/static/media/04.4300d86f.jpg"
+  },
+  {
+    "revision": "e9d9226d59f75c2a379ab630cd3cb14d",
+    "url": "/clinic/static/media/04d.e9d9226d.jpg"
+  },
+  {
+    "revision": "1f4ca9b13cd335e0f82fdf4756944aac",
+    "url": "/clinic/static/media/05.1f4ca9b1.jpg"
+  },
+  {
+    "revision": "6d8b8e66ce280dd3f702b6437fa6dd46",
+    "url": "/clinic/static/media/05d.6d8b8e66.jpg"
   },
   {
     "revision": "e509c4e0ff9cacda2770b831f617375b",
@@ -50,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0582d95a492406ace5bf2011b6c143ef",
     "url": "/clinic/static/media/depistage-1.0582d95a.jpeg"
+  },
+  {
+    "revision": "f2516a15596686dc1b836caae80acc4e",
+    "url": "/clinic/static/media/depistage-2.f2516a15.jpeg"
   },
   {
     "revision": "7502cd5cec765f2c0e3a20cf97b58e05",
