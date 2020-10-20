@@ -1,12 +1,8 @@
-// import kinesitherapie from "./images/kinesitherapie.jpg";
-// import accouchement from "./images/accouchement.png";
-// import vaccination from "./images/vaccination.jpg";
-
 export const Services = [
   {
     title: "Consultation généraliste",
     text:
-      "A la royal clinic, venez et beneficiez d une consultation de medecine generale dans un cadre bien amenage et obtenez des soins de qualite par une equipe competante et professionnele. prenez rendez vous et venez toucher du doigt la methode RCC. car a la RCC, votre sante est notre satisfaction.",
+      "A la royal clinic, venez et beneficiez d'une consultation de medecine generale dans un cadre bien amenage et obtenez des soins de qualite par une equipe competante et professionnele. prenez rendez vous et venez toucher du doigt la methode RCC. car a la RCC, votre sante est notre satisfaction.",
     image: "./images/gconsultation.jpg",
     id: 1,
   },
@@ -27,7 +23,7 @@ export const Services = [
   {
     title: "Laboratoire",
     text:
-      "Un laboratoire equipe d appareils de pointe pour des diagnostics de precision.",
+      "Un laboratoire équipé d'appareils de pointe pour des diagnostics de precision.",
     image: "./images/laboratoire.jpg",
     id: 4,
   },

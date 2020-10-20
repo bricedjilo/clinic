@@ -6,7 +6,9 @@
 .carousel.slide {
   margin-top: 100px;
 }
-
+.btn-rdv {
+  color: white !important;
+}
 .banner.style-1 .banner-bottom {
   background: #ffffffa8;
   padding: 20px;
