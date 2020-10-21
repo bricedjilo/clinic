@@ -15,7 +15,7 @@ import "./offer.css";
 
 export const Offer = (props) => {
   const services = props.services.map((service) => (
-    <div className="col-lg-6 col-12">
+    <div className="col-lg-4 col-md-6 col-12">
       <CardService service={service} />
     </div>
   ));

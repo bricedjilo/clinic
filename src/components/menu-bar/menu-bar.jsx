@@ -44,7 +44,7 @@ export const MenuBar = (props) => {
             Heures d'ouverture
           </NavHashLink>
           <NavHashLink to="#contact" className="nav-link">
-            Nous Contacter
+            Contactez nous
           </NavHashLink>
         </Nav>
       </Navbar.Collapse>

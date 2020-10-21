@@ -4,7 +4,8 @@ import Form from "react-bootstrap/Form";
 
 import "./contact.css";
 
-export const Contact = () => {
+export const Contact = ({ services }) => {
+  const options = services.map((service) => <option>{service.title}</option>);
   return (
     <section className="contact-section style-1 padding-tb" id="contact">
       <div className="container">
@@ -28,16 +29,7 @@ export const Contact = () => {
               </Form.Group>
               <Form.Group controlId="contactForm.ControlSelect">
                 <Form.Label>Services</Form.Label>
-                <Form.Control as="select">
-                  <option>Consultation généraliste</option>
-                  <option>Consultation spécialiste</option>
-                  <option>Hospitalisation</option>
-                  <option>Laboratoire</option>
-                  <option>Petite Chirurgie</option>
-                  <option>Kinésithérapie</option>
-                  <option>CPN & Accouchement</option>
-                  <option>Vaccination</option>
-                </Form.Control>
+                <Form.Control as="select">{options}</Form.Control>
               </Form.Group>
               <Form.Group controlId="contactForm.ControlTextarea">
                 <Form.Control
