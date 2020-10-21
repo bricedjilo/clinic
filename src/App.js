@@ -14,7 +14,7 @@ import { Offer } from "./components/offer/offer";
 // import { Team } from "./components/team/team";
 import { Contact } from "./components/contact/contact";
 // import { Blog } from "./components/blog/blog";
-import { Testimonial } from "./components/testimonial/testimonial";
+// import { Testimonial } from "./components/testimonial/testimonial";
 import { Footer } from "./components/footer/footer";
 
 import "./App.css";
