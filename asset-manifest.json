@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/clinic/static/css/main.d78de58d.chunk.css",
-    "main.js": "/clinic/static/js/main.653eccd1.chunk.js",
-    "main.js.map": "/clinic/static/js/main.653eccd1.chunk.js.map",
+    "main.css": "/clinic/static/css/main.4151a66d.chunk.css",
+    "main.js": "/clinic/static/js/main.943c3610.chunk.js",
+    "main.js.map": "/clinic/static/js/main.943c3610.chunk.js.map",
     "runtime-main.js": "/clinic/static/js/runtime-main.cc94648b.js",
     "runtime-main.js.map": "/clinic/static/js/runtime-main.cc94648b.js.map",
-    "static/js/2.9a28fe79.chunk.js": "/clinic/static/js/2.9a28fe79.chunk.js",
-    "static/js/2.9a28fe79.chunk.js.map": "/clinic/static/js/2.9a28fe79.chunk.js.map",
+    "static/js/2.8c2f8f1b.chunk.js": "/clinic/static/js/2.8c2f8f1b.chunk.js",
+    "static/js/2.8c2f8f1b.chunk.js.map": "/clinic/static/js/2.8c2f8f1b.chunk.js.map",
     "index.html": "/clinic/index.html",
-    "precache-manifest.07f784fbadcb366ae8892116c7f68dd9.js": "/clinic/precache-manifest.07f784fbadcb366ae8892116c7f68dd9.js",
+    "precache-manifest.3abf0d731d02d69304f5668b80bcbcba.js": "/clinic/precache-manifest.3abf0d731d02d69304f5668b80bcbcba.js",
     "service-worker.js": "/clinic/service-worker.js",
-    "static/css/main.d78de58d.chunk.css.map": "/clinic/static/css/main.d78de58d.chunk.css.map",
-    "static/js/2.9a28fe79.chunk.js.LICENSE.txt": "/clinic/static/js/2.9a28fe79.chunk.js.LICENSE.txt",
+    "static/css/main.4151a66d.chunk.css.map": "/clinic/static/css/main.4151a66d.chunk.css.map",
+    "static/js/2.8c2f8f1b.chunk.js.LICENSE.txt": "/clinic/static/js/2.8c2f8f1b.chunk.js.LICENSE.txt",
     "static/media/footer.css": "/clinic/static/media/01.7ebd2b34.jpg",
     "static/media/01.png": "/clinic/static/media/01.a2eff715.png",
     "static/media/02.jpg": "/clinic/static/media/02.4d03a7c5.jpg",
@@ -25,10 +25,14 @@
     "static/media/accouchement.png": "/clinic/static/media/accouchement.e509c4e0.png",
     "static/media/banner-rc.jpg": "/clinic/static/media/banner-rc.c7f89b6b.jpg",
     "static/media/contact.css": "/clinic/static/media/bg-01.fd568b48.jpg",
+    "static/media/cardiologie.jpg": "/clinic/static/media/cardiologie.082fffb1.jpg",
+    "static/media/chirurgie-dentaire.jpg": "/clinic/static/media/chirurgie-dentaire.84901aa5.jpg",
     "static/media/chirurgie.jpeg": "/clinic/static/media/chirurgie.c10fcac1.jpeg",
     "static/media/depistage-1.jpeg": "/clinic/static/media/depistage-1.0582d95a.jpeg",
     "static/media/depistage-2.jpeg": "/clinic/static/media/depistage-2.f2516a15.jpeg",
+    "static/media/echographie.jpg": "/clinic/static/media/echographie.471622ab.jpg",
     "static/media/gconsultation.jpg": "/clinic/static/media/gconsultation.7502cd5c.jpg",
+    "static/media/genyco-obstertrique.jpg": "/clinic/static/media/genyco-obstertrique.ab19ac49.jpg",
     "static/media/hospitalisation.jpeg": "/clinic/static/media/hospitalisation.8df8a222.jpeg",
     "static/media/kinesitherapie.jpg": "/clinic/static/media/kinesitherapie.9fb1438d.jpg",
     "static/media/laboratoire.jpg": "/clinic/static/media/laboratoire.983d21ce.jpg",
@@ -38,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cc94648b.js",
-    "static/js/2.9a28fe79.chunk.js",
-    "static/css/main.d78de58d.chunk.css",
-    "static/js/main.653eccd1.chunk.js"
+    "static/js/2.8c2f8f1b.chunk.js",
+    "static/css/main.4151a66d.chunk.css",
+    "static/js/main.943c3610.chunk.js"
   ]
 }

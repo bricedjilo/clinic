@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "458c67be3d65da463070c8470de177b7",
+    "revision": "22647f72446ceb34bcff4a3707500f9f",
     "url": "/clinic/index.html"
   },
   {
-    "revision": "b03c3e646517c575ed8e",
-    "url": "/clinic/static/css/main.d78de58d.chunk.css"
+    "revision": "3bbf898d17fa282c8d13",
+    "url": "/clinic/static/css/main.4151a66d.chunk.css"
   },
   {
-    "revision": "9a0e74f4935c040bb4d4",
-    "url": "/clinic/static/js/2.9a28fe79.chunk.js"
+    "revision": "4af37cac179510bfb5fe",
+    "url": "/clinic/static/js/2.8c2f8f1b.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/clinic/static/js/2.9a28fe79.chunk.js.LICENSE.txt"
+    "url": "/clinic/static/js/2.8c2f8f1b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b03c3e646517c575ed8e",
-    "url": "/clinic/static/js/main.653eccd1.chunk.js"
+    "revision": "3bbf898d17fa282c8d13",
+    "url": "/clinic/static/js/main.943c3610.chunk.js"
   },
   {
     "revision": "988d3a03875620f8be6c",
@@ -76,6 +76,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clinic/static/media/bg-01.fd568b48.jpg"
   },
   {
+    "revision": "082fffb14cb9cea89f9f540c0dd8cc5d",
+    "url": "/clinic/static/media/cardiologie.082fffb1.jpg"
+  },
+  {
+    "revision": "84901aa5e5d79f7d01a2f7039e340c0b",
+    "url": "/clinic/static/media/chirurgie-dentaire.84901aa5.jpg"
+  },
+  {
     "revision": "c10fcac1d2adc77994eecc2a5189fac8",
     "url": "/clinic/static/media/chirurgie.c10fcac1.jpeg"
   },
@@ -88,8 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clinic/static/media/depistage-2.f2516a15.jpeg"
   },
   {
+    "revision": "471622ab6f8dd8cb853add56304d08c6",
+    "url": "/clinic/static/media/echographie.471622ab.jpg"
+  },
+  {
     "revision": "7502cd5cec765f2c0e3a20cf97b58e05",
     "url": "/clinic/static/media/gconsultation.7502cd5c.jpg"
+  },
+  {
+    "revision": "ab19ac49a87c503eb61366a3b3396289",
+    "url": "/clinic/static/media/genyco-obstertrique.ab19ac49.jpg"
   },
   {
     "revision": "8df8a222d1670f4e03c1d4402c72f768",
