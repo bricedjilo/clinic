@@ -49,7 +49,7 @@ class App extends Component {
         <Route path="/">
           <Contact services={Services} />
         </Route>
-        <Route path="/" component={Testimonial} />
+        {/* <Route path="/" component={Testimonial} /> */}
         <Route path="/" component={Footer} />
         {/* </Switch> */}
         {/* <Footer /> */}
