@@ -1,6 +1,7 @@
 import React from "react";
 
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 import "./contact.css";
 
@@ -21,14 +22,13 @@ export const Contact = ({ services }) => {
             {/* <div className="section-wrapper"> */}
             <Form>
               <Form.Group controlId="contactForm.ControlInput1">
-                <Form.Label>Adresse e-mail</Form.Label>
+                {/* <Form.Label></Form.Label> */}
                 <Form.Control type="text" placeholder="Votre Prenom" />
                 <Form.Control type="text" placeholder="Votre Nom" />
-                <Form.Label>Votre adresse e-mail</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
+                <Form.Control type="email" placeholder="Votre adresse e-mail" />
               </Form.Group>
               <Form.Group controlId="contactForm.ControlSelect">
-                <Form.Label>Services</Form.Label>
+                <Form.Label>Choisissez un services</Form.Label>
                 <Form.Control as="select">{options}</Form.Control>
               </Form.Group>
               <Form.Group controlId="contactForm.ControlTextarea">
@@ -38,8 +38,12 @@ export const Contact = ({ services }) => {
                   placeholder="Votre message"
                 />
               </Form.Group>
+              <Form.Group controlId="contactForm.ControlInput1">
+                <Button type="submit" className="btn btn-success">
+                  Soumettre
+                </Button>
+              </Form.Group>
             </Form>
-            {/* </div> */}
           </div>
         </div>
       </div>
