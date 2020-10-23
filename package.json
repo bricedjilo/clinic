@@ -8,6 +8,9 @@
     "yarn": "1.21.1"
   },
   "homepage": "https://bricedjilo.github.io/clinic",
+  "optionalDependencies": {
+    "fsevents": "2.1.2"
+  },
   "dependencies": {
     "@testing-library/dom": "^7.26.3",
     "@testing-library/jest-dom": "^4.2.4",
