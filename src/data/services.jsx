@@ -58,7 +58,7 @@ export const Services = [
   {
     title: "Dentisterie",
     text:
-      " La RCC offre des consultations de dentisterie et des soins dentaires de qualités. alors, pour tous vos problèmes de dents n' hésitez pas à vous rendre à la RCC pour une prise en charge optimale.",
+      " La RCC offre des consultations de dentisterie et des soins dentaires de qualités. alors, pour tous vos problèmes de dents, n'hésitez pas à vous rendre à la RCC pour une prise en charge optimale.",
     image: "./images/chirurgie-dentaire.jpg",
     id: 9,
   },
@@ -86,7 +86,7 @@ export const Services = [
   {
     title: "Échographie",
     text:
-      "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... n hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
+      "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... N'hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
     image: "./images/echographie.jpg",
     id: 13,
   },
