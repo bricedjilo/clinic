@@ -1,0 +1,14 @@
+
+Contenu du doc "a-faire.version.02.txt":
+
+- Texts pour chaque services ( il y a 13 services)
+    * reste a faire: 1 service (Échographie)
+
+- un text pour la section "A propos de Royal Clinic"
+    * Text n'a pas encore ete recu.
+
+- une image amelioree de l'exterieur du batiment (si ce nest pas possible on fera sans cela)
+    * Annulee
+
+- un text pour la section de temoignage
+    * Cette section a ete annulee vu l'urgence du projet et la velocite

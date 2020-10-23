@@ -9,7 +9,7 @@ export const Services = [
   {
     title: "Consultations spécialisées",
     text:
-      "venez et beneficiez de nos prestations dans les spécialités suivantes, Gyneco-obstetrique, cardiologie, pédiatrie, odonto stomatologie, kinésithérapie, etc...contactez nous et prenez rendez-vous , une équipe professionnelle vous recevra et vous soulagera de vos peines car à la RCC votre santé est notre satisfaction.",
+      "Venez et beneficiez de nos prestations dans les spécialités suivantes, Gyneco-obstetrique, cardiologie, pédiatrie, odonto stomatologie, kinésithérapie, etc...contactez nous et prenez rendez-vous , une équipe professionnelle vous recevra et vous soulagera de vos peines car à la RCC votre santé est notre satisfaction.",
     image: "./images/sconsultation.png",
     id: 2,
   },
@@ -23,7 +23,7 @@ export const Services = [
   {
     title: "Laboratoire",
     text:
-      "Un laboratoire équipe d'appareils de pointe pour des diagnostics de précisions.",
+      "Un laboratoire équipé d'appareils de pointe pour des diagnostics de précisions.",
     image: "./images/laboratoire.jpg",
     id: 4,
   },
@@ -37,50 +37,57 @@ export const Services = [
   {
     title: "Kinésithérapie",
     text:
-      "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... n hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
+      "Venez à la RCC pour tous vos besoins de rééducation et réadaptation. Notre kinésithérapeute vous recevra et vous aidera a retrouver votre autonomie et votre bien être. Bienvenue à la Royal  Clinic celle qui a pour satisfaction votre santé",
     image: "./images/kinesitherapie.jpg",
     id: 6,
   },
   {
-    title: "CPN & Accouchement ",
+    title: "CPN & Accouchement",
     text:
-      "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... n hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
+      "Pour le diagnostic , le suivie, l accompagnement de votre grossesse, mesdames, et demoiselles, une seule adresse, la RCC. Son service de CPN  et accouchement vous accueille les bras ouverts, pour vous permettre d accueillir votre bebe dans de bonnes conditions.",
     image: "./images/accouchement.png",
     id: 7,
   },
   {
     title: "Vaccination",
     text:
-      "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... n hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
+      "Pour la vaccination des touts petits, N'hésitez pas. La RCC met a votre disposition l ensemble des vaccins prévus par le programme élargie de vaccination du Cameroun.",
     image: "./images/vaccination.jpg",
     id: 8,
   },
   {
-    title: "Chirurgie dentaire",
+    title: "Dentisterie",
     text:
-      "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... n hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
+      " La RCC offre des consultations de dentisterie et des soins dentaires de qualités. alors, pour tous vos problèmes de dents n' hésitez pas à vous rendre à la RCC pour une prise en charge optimale.",
     image: "./images/chirurgie-dentaire.jpg",
     id: 9,
   },
   {
     title: "Cardiologie",
     text:
-      "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... n hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
+      "Chaque jour, le cardiologue de la RCC est disponible pour toute auscultation spécialisée et professionnelle alors, n'hésites pas à prendre rendez-vous pour bénéficier des soins de qualité par une équipe de professionnelle rompus à la tâche.",
     image: "./images/cardiologie.jpg",
     id: 10,
   },
   {
-    title: "Genyco-obstértrique",
+    title: "Genycologie",
     text:
-      "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... n hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
+      "Mesdames, mesdemoiselles, pour tous vos problèmes gynécologiques, une seule adresse la RCC. vous y rencontrerez des professionnels dont le seul objectif sera votre plus grande satisfaction. Réalisez également vos échographies à la RCC pour le suivi de vos consultations prénatales et autres diagnostiques gynécologiques.",
     image: "./images/genyco-obstertrique.jpg",
     id: 11,
+  },
+  {
+    title: "Pédiatrie",
+    text:
+      "La santé de vos chers touts petits enfants est une priorité pour la RCC. alors, n'hésitez pas à les amener rencontrer leur pédiatre pour une prise en charge optimale et holistique des différentes affections présentées.",
+    image: "./images/echographie.jpg",
+    id: 12,
   },
   {
     title: "Échographie",
     text:
       "En cas de petit accident, abcès, ongle incarne, circoncision, brulure, extraction de corps étrangers, etc... n hésitez pas , venez a la RCC et vous bénéficierez de soins de qualité.",
     image: "./images/echographie.jpg",
-    id: 12,
+    id: 13,
   },
 ];
