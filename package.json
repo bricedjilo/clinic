@@ -4,7 +4,8 @@
   "private": true,
   "engines": {
     "npm": "6.14.8",
-    "node": "12.19.0"
+    "node": "12.19.0",
+    "yarn": "1.21.1"
   },
   "homepage": "https://bricedjilo.github.io/clinic",
   "dependencies": {
