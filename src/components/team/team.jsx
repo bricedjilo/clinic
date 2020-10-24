@@ -46,18 +46,23 @@ export const Team = () => {
                       </li>
                       <li>
                         <span>Follow us</span>:{" "}
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-facebook"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-twitter"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-skype"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-instagram"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-pinterest"></i>
                         </a>
@@ -95,18 +100,23 @@ export const Team = () => {
                       </li>
                       <li>
                         <span>Follow us</span>:{" "}
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-facebook"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-twitter"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-skype"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-instagram"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-pinterest"></i>
                         </a>
@@ -144,18 +154,23 @@ export const Team = () => {
                       </li>
                       <li>
                         <span>Follow us</span>:{" "}
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-facebook"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-twitter"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-skype"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-instagram"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-pinterest"></i>
                         </a>
@@ -193,18 +208,23 @@ export const Team = () => {
                       </li>
                       <li>
                         <span>Follow us</span>:{" "}
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-facebook"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-twitter"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-skype"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-instagram"></i>
                         </a>
+                        {/* eslint-disable-next-line  */}
                         <a href="#">
                           <i className="icofont-pinterest"></i>
                         </a>

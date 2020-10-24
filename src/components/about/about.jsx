@@ -31,6 +31,7 @@ export const About = (props) => {
                     Caborin levera then andin tha qualit bwdh thenig covae thm
                     anying value cordin
                   </p>
+                  {/* eslint-disable-next-line  */}
                   <a href="#" className="text-btn">
                     Get Appointments
                   </a>
@@ -48,6 +49,7 @@ export const About = (props) => {
                     Caborin levera then andin tha qualit bwdh thenig covae thm
                     anying value cordin
                   </p>
+                  {/* eslint-disable-next-line  */}
                   <a href="#" className="text-btn">
                     Call us Now
                   </a>
@@ -65,6 +67,7 @@ export const About = (props) => {
                     Caborin levera then andin tha qualit bwdh thenig covae thm
                     anying value cordin
                   </p>
+                  {/* eslint-disable-next-line  */}
                   <a href="#" className="text-btn">
                     Get Directions
                   </a>
@@ -82,6 +85,7 @@ export const About = (props) => {
                     Caborin levera then andin tha qualit bwdh thenig covae thm
                     anying value cordin
                   </p>
+                  {/* eslint-disable-next-line  */}
                   <a href="#" className="text-btn">
                     Find a Doctors
                   </a>

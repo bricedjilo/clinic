@@ -80,12 +80,15 @@ export const Blog = () => {
                       <div className="meta-icon">
                         <i className="icofont-film"></i>
                       </div>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="date">
                         01 May'20
                       </a>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="name">
                         John Doe
                       </a>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="comments">
                         1 Comments
                       </a>
@@ -124,12 +127,15 @@ export const Blog = () => {
                       <div className="meta-icon">
                         <i className="icofont-film"></i>
                       </div>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="date">
                         01 May'20
                       </a>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="name">
                         John Doe
                       </a>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="comments">
                         1 Comments
                       </a>
@@ -168,12 +174,15 @@ export const Blog = () => {
                       <div className="meta-icon">
                         <i className="icofont-film"></i>
                       </div>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="date">
                         01 May'20
                       </a>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="name">
                         John Doe
                       </a>
+                      {/* eslint-disable-next-line  */}
                       <a href="#" className="comments">
                         1 Comments
                       </a>
