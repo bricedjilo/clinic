@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 export const CardService = ({ service }) => {
   return (
     <Card key={service.id}>
-      <Card.Img variant="top" src={require(`${service.image}`)} />
+      <Card.Img variant="top" src={service.image} />
       <Card.Body>
         <Card.Title className="theme-color">{service.title}</Card.Title>
         <Card.Text>
