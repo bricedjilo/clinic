@@ -80,7 +80,7 @@ export const Services = [
     title: "Pédiatrie",
     text:
       "La santé de vos chers touts petits enfants est une priorité pour la RCC. alors, n'hésitez pas à les amener rencontrer leur pédiatre pour une prise en charge optimale et holistique des différentes affections présentées.",
-    image: "./images/echographie.jpg",
+    image: "./images/pediatrie.jpg",
     id: 12,
   },
   {

@@ -5,9 +5,10 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 
 export const CardService = ({ service }) => {
+  let image = require(`${service.image}`);
   return (
     <Card key={service.id}>
-      <Card.Img variant="top" src={service.image} />
+      <Card.Img variant="top" src={image.default} />
       <Card.Body>
         <Card.Title className="theme-color">{service.title}</Card.Title>
         <Card.Text>
