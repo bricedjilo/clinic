@@ -78,16 +78,16 @@ export const Footer = (props) => {
                 <div className="col-xl-4 col-lg-6 col-12 mt-4">
                   <div className="ft-about-part">
                     <div className="bg-asb-thumb"></div>
-                    <div className="ft-title">
+                    {/* <div className="ft-title">
                       <h4>A propos de Royal Clinic</h4>
-                    </div>
-                    <div className="ft-body">
+                    </div> */}
+                    {/* <div className="ft-body">
                       <p>
                         Assertvely communicate mission critical agnments
                         economically sound communities through dynamic
                         Phosfluoresc internal sources
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="col-xl-4 col-lg-6 col-12 mt-4">

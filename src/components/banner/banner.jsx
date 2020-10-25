@@ -3,6 +3,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 import banner from "./images/banner-rc.jpg";
+// import bannerDepistage from "./images/banner-depistage.jpeg";
 
 import "./banner.css";
 
@@ -28,7 +29,7 @@ export const Banner = (props) => {
             Notre
             <span className="primary-color font-l"> Satisfaction </span>
           </h1>
-          <a href="#contact" className="btn btn-success btn-sm btn-rdv">
+          <a href="#footer" className="btn btn-success btn-sm btn-rdv">
             Obtenez un rendez-vous{" "}
             <i className="icofont-rounded-double-right"></i>
           </a>
@@ -56,7 +57,7 @@ export const Banner = (props) => {
             Notre
             <span className="primary-color font-l"> Satisfaction </span>
           </h1>
-          <a href="#contact" className="btn btn-success btn-sm btn-rdv">
+          <a href="#footer" className="btn btn-success btn-sm btn-rdv">
             Obtenez un rendez-vous{" "}
             <i className="icofont-rounded-double-right"></i>
           </a>
@@ -84,7 +85,7 @@ export const Banner = (props) => {
             Notre
             <span className="primary-color font-l"> Satisfaction </span>
           </h1>
-          <a href="#contact" className="btn btn-success btn-sm btn-rdv">
+          <a href="#footer" className="btn btn-success btn-sm btn-rdv">
             Obtenez un rendez-vous{" "}
             <i className="icofont-rounded-double-right"></i>
           </a>
