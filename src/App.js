@@ -46,9 +46,9 @@ class App extends Component {
         <Route path="/">
           <Offer services={Services} />
         </Route>
-        <Route path="/">
+        {/* <Route path="/">
           <Contact services={Services} />
-        </Route>
+        </Route> */}
         {/* <Route path="/" component={Testimonial} /> */}
         <Route path="/" component={Footer} />
         {/* </Switch> */}
