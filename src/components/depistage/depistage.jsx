@@ -15,7 +15,7 @@ export const Depistage = (props) => {
           <h2>
             Grande Campagne de Dépistage{" "}
             <span className="theme-color">
-              Graduit du 19/10/2020 au 30/10/2020
+              Gratuit du 19/10/2020 au 30/10/2020
             </span>{" "}
           </h2>
           <div className="depistage w-100">
