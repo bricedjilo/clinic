@@ -19,7 +19,7 @@ export const Banner = (props) => {
     <Carousel
       className="banner"
       fade={true}
-      interval={2000}
+      interval={2300}
       defaultActiveIndex={1}
     >
       <Carousel.Item>
