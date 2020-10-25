@@ -57,7 +57,7 @@ export const BannerBottom = () => {
                 <h6>
                   <i>Envoyez nous un courriel</i>
                 </h6>
-                <h5>royalclinic.dla@gmail.com</h5>
+                <h5>office@royalclinic-dla</h5>
               </div>
             </div>
 

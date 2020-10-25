@@ -51,7 +51,7 @@ export const Footer = (props) => {
                   <p>
                     <i>Envoyez nous un courriel</i>
                   </p>
-                  <h6>royalclinic.dla@gmail.com</h6>
+                  <h6>office@royalclinic-dla</h6>
                 </div>
               </div>
               <div className="ft-item">
