@@ -43,7 +43,7 @@ export const MenuBar = (props) => {
           <NavHashLink to="#footer" className="nav-link">
             Heures d'ouverture
           </NavHashLink>
-          <NavHashLink to="#contact" className="nav-link">
+          <NavHashLink to="#footer" className="nav-link">
             Contactez nous
           </NavHashLink>
         </Nav>
