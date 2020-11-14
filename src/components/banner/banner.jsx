@@ -5,7 +5,8 @@ import { NavHashLink } from "react-router-hash-link";
 import Carousel from "react-bootstrap/Carousel";
 
 import banner from "./images/banner-rc.jpg";
-import bannerDepistage from "./images/banner-depistage-2.png";
+import bannerDepistage13 from "./images/banner-depistage-diabete-13.jpeg";
+import bannerDepistage14 from "./images/banner-depistage-diabete-14.jpeg";
 
 import "./banner.css";
 
@@ -20,7 +21,7 @@ export const Banner = (props) => {
       className="banner"
       fade={true}
       interval={2300}
-      defaultActiveIndex={1}
+      defaultActiveIndex={2}
     >
       <Carousel.Item>
         <img
@@ -58,8 +59,19 @@ export const Banner = (props) => {
         <NavHashLink to="#depistages">
           <img
             className="d-block img-fluid w-100"
-            src={bannerDepistage}
+            src={bannerDepistage13}
             alt="2nd slide"
+            style={{ float: "right" }}
+          />
+        </NavHashLink>
+        <Carousel.Caption></Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item key="03">
+        <NavHashLink to="#depistages">
+          <img
+            className="d-block img-fluid w-100"
+            src={bannerDepistage14}
+            alt="3rd slide"
             style={{ float: "right" }}
           />
         </NavHashLink>

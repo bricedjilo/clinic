@@ -41,7 +41,7 @@ export const MenuBar = (props) => {
             Visitez Nous
           </NavHashLink>
           <NavHashLink to="#footer" className="nav-link">
-            Heures d'ouverture
+            Heures d'ouvertures
           </NavHashLink>
           <NavHashLink to="#footer" className="nav-link">
             Contactez nous
